@@ -1,4 +1,4 @@
 {
   "framework": "vite",
-  "rewrites": [{ "source": "/((?!assets/|.*\\..*).*)", "destination": "/index.html" }]
+  "redirects": [{ "source": "/(.*)", "destination": "https://voicewell.onrender.com/$1", "permanent": false }]
 }
