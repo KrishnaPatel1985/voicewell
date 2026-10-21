@@ -82,6 +82,18 @@ async def health() -> dict:
     return {"ok": True}
 
 
+@guarded.post("/demo/session")
+async def demo_session(request: Request, response: Response) -> dict:
+    """Re-create a demo account's session after it expired or the server restarted."""
+    from . import demo
+
+    user = require_user(request)
+    row = db.get_user_by_id(user.id)
+    if not row or not demo.start_session(request, response, row):
+        raise ApiError(404, "not_found", "That isn't here.")
+    return {"ok": True}
+
+
 @guarded.post("/kid/claim")
 async def kid_claim(request: Request, response: Response) -> dict:
     user = require_user(request)

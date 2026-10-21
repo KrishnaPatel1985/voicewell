@@ -42,7 +42,7 @@ export function signalSignedOut(): void {
   window.dispatchEvent(new Event(SIGNED_OUT_EVENT))
 }
 
-async function request<T>(path: string, method = 'GET', body?: unknown): Promise<T> {
+async function request<T>(path: string, method = 'GET', body?: unknown, healed = false): Promise<T> {
   let res: Response
   try {
     res = await fetch(`/api${path}`, {
@@ -65,6 +65,15 @@ async function request<T>(path: string, method = 'GET', body?: unknown): Promise
       reason = data.reason
     } catch {
       // non-JSON error body
+    }
+    // A demo account whose session expired (or the server restarted) gets a fresh one instead of the age check.
+    if (res.status === 401 && code === 'no_session' && !healed && !path.startsWith('/kid/') && path !== '/demo/session') {
+      try {
+        await request('/demo/session', 'POST')
+        return await request<T>(path, method, body, true)
+      } catch {
+        // not a demo account: fall through to the normal age check redirect
+      }
     }
     if (res.status === 401 && code === 'not_authenticated' && !path.startsWith('/auth/')) signalSignedOut()
     throw new ApiError(res.status, code, message, reason)

@@ -1585,7 +1585,7 @@ button:disabled { cursor: default; opacity: 0.55; }
 }
 .journal-cards-grid, .invites-grid, .specialists-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(320px, 100%), 1fr));
   gap: 16px;
 }
 .saved-journal-card, .invite-card, .specialist-card, .appointment-req-card {
@@ -2204,4 +2204,10 @@ button:disabled { cursor: default; opacity: 0.55; }
   .web-header nav { gap: 2px; padding: 3px; }
   .web-header nav a, .settings-pill { padding: 0 9px; min-width: 40px; justify-content: center; }
   .nav-logout { padding: 0 8px; }
+}
+
+@media (max-width: 680px) {
+  .settings-locale-card .jb-row-2 { grid-template-columns: 1fr; }
+  .cp-lang-picker { display: flex; flex-direction: column; align-items: stretch; gap: 6px; }
+  .cp-lang-picker select { min-height: 44px; }
 }
