@@ -244,7 +244,7 @@ export default function Home() {
       <div className="jurisdiction-banner" role="region" aria-label="Active age and country configuration">
         <div className="jb-left">
           <span className="jb-badge">
-            {countryInfo?.flag ?? '🌍'} {countryInfo?.name ?? config.country ?? 'Global'} ({config.jurisdiction ?? config.country ?? 'US'})
+            {countryInfo?.name ?? config.country ?? 'Global'} ({config.jurisdiction ?? config.country ?? 'US'})
           </span>
           <span className="jb-badge age-pill">
             {ageGroup === 'kids' ? 'Kids (6–12)' : ageGroup === 'teens' ? 'Teens (13–17)' : 'Adults (18+)'} · Age {config.age}

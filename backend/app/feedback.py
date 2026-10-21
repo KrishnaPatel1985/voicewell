@@ -302,7 +302,7 @@ async def build_feedback(session) -> dict:
         ]
         result = await _ask_model(messages)
     fb = clean(result or fallback, user_texts, fallback)
-    if len(user_texts) < MIN_USER_TURNS:
+    if len(user_texts) < MIN_USER_TURNS and SHORT_NOTE not in fb["summary"]:
         fb["summary"] = f"{fb['summary']} {SHORT_NOTE}"
     if capabilities(session)["toneFeedback"]["on"]:
         tone = tone_line(p.emotions)
