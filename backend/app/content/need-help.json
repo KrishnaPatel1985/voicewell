@@ -1,0 +1,262 @@
+{
+  "topic": "need-help",
+  "title": "Asking for help",
+  "summary": "Learn when to ask for help, who to ask, and simple words to start the conversation.",
+  "icon": "book",
+  "order": 6,
+  "practice_goal": {
+    "myself": "The learner wants to practise asking you, as a teacher or trusted adult, for help with something that worries them. Listen first, ask gentle questions, and help them say what they need.",
+    "someone-else": "The learner is a parent, carer or teacher who wants to practise helping a child who finds it hard to ask for help. You are that child. You are a little guarded, and you open up only when they listen without lecturing."
+  },
+  "persona_rules": {
+    "myself": [
+      {
+        "maxAge": 17,
+        "persona": "teacher"
+      },
+      {
+        "persona": "trusted-adult"
+      }
+    ],
+    "someone-else": [
+      {
+        "persona": "guarded-teen"
+      }
+    ]
+  },
+  "key_questions": {
+    "myself": [
+      "Can I tell you something?",
+      "Who else could I ask if you are busy?",
+      "What could I try while I wait?",
+      "Can we pick a time to talk again?",
+      "How will I know if it is helping?"
+    ],
+    "someone-else": [
+      "What would help most right now: listening, ideas, or company?",
+      "Who else do you trust that you could talk to?",
+      "Is there anything that makes it hard to ask me?",
+      "How can I make it easier for you to tell me things?",
+      "Would it help if we picked a time to talk?"
+    ]
+  },
+  "concepts": [
+    {
+      "id": "everyone-needs-help",
+      "core": true,
+      "variants": {
+        "simple": {
+          "title": "Everyone needs help sometimes",
+          "body": "Everyone needs help sometimes. Grown-ups do too. Needing help does not mean you are weak or silly. It means you are a person. Asking for help is a smart thing to do.",
+          "body_someone_else": "Every child needs help sometimes, and so do grown-ups. Say that out loud. Needing help is normal, not weak or silly. Show that asking for help is a smart thing to do."
+        },
+        "standard": {
+          "title": "Everyone needs help sometimes",
+          "body": "Everyone needs help sometimes, with schoolwork, with a worry, or with a feeling that is too big to carry alone. Children, teens and adults all do. Needing help is not a flaw, and it does not mean you failed. Most people feel glad when someone trusts them enough to ask. Asking is a skill, and like any skill it gets easier with practice.",
+          "body_someone_else": "Every child needs help sometimes, and many children believe they should manage alone. You can change that by saying so: 'Everyone needs help, including me.' Share a small time you asked for help yourself. Praise asking as a strength, and avoid sighing or joking when a child asks. How you respond the first time shapes whether they ask again."
+        },
+        "deep": {
+          "title": "Everyone needs help sometimes",
+          "body": "Everyone needs help sometimes, with schoolwork, with a worry, or with a feeling that is too big to carry alone. Children, teens and adults all do. Needing help is not a flaw, and it does not mean you failed. Try the friend test: imagine a friend has the same problem as you. Would you think less of them for asking? Most likely you would be glad they spoke up. Give yourself the same kindness, then take one small step and ask one person. If something ever feels too big or scary, tell a trusted grown-up straight away, or call your local emergency number.",
+          "body_someone_else": "Every child needs help sometimes, and many believe they should cope alone. Change that by saying it plainly: 'Everyone needs help, including me.' Share a short, true story of a time you asked for help and how it went. Then build a thank-you habit: when a child asks, even about something small, say 'I'm glad you told me.' Avoid sighing, teasing, or 'You should know this by now.' How you respond the first time shapes whether they ask again. If a child seems frightened or overwhelmed, stay close and call your local emergency number if you need urgent help."
+        }
+      },
+      "check": {
+        "question": "Which of these is true about asking for help?",
+        "options": [
+          "Only weak people need help",
+          "Everyone needs help sometimes",
+          "Grown-ups never need help"
+        ],
+        "answer": 1,
+        "explain": "Everyone needs help at times, children and grown-ups alike. Asking is a sensible step, not a sign of weakness."
+      }
+    },
+    {
+      "id": "when-to-ask",
+      "core": true,
+      "variants": {
+        "simple": {
+          "title": "Knowing when to ask",
+          "body": "Ask for help when something feels too big. Ask when you have tried and it is still hard. Ask if a worry will not go away. Ask early. You do not have to wait.",
+          "body_someone_else": "Teach children to ask when something feels too big, when they are still stuck after trying, or when a worry stays. Early is good. They never have to wait until it is awful."
+        },
+        "standard": {
+          "title": "Knowing when to ask",
+          "body": "Good times to ask are when something feels too big, when you have tried a few ways and are still stuck, or when a worry keeps coming back. Also ask if something is getting in the way of sleep, school, friends or work. You do not need to wait until it is awful. Asking early usually means the problem is smaller and easier to sort out.",
+          "body_someone_else": "Children often wait too long because they think a problem has to be serious first. Tell them clearly: ask when something feels too big, when trying has not worked, or when a worry keeps coming back. Notice changes in sleep, mood, eating or schoolwork, and ask gently what is going on. Small, early asks are welcome, and you can say so."
+        },
+        "deep": {
+          "title": "Knowing when to ask",
+          "body": "Good times to ask are when something feels too big, when you have tried a few ways and are still stuck, or when a worry keeps coming back. Try two quick tools. The stuck timer: try on your own for ten minutes, then ask. The size check: rate the problem from 1 to 5, and if it stays at 4 or 5 for a few days, or gets in the way of sleep, school, friends or work, it is time to ask. If something feels too big or scary right now, tell a trusted grown-up straight away, or call your local emergency number.",
+          "body_someone_else": "Children often wait too long because they think a problem has to be serious first. Tell them: ask when something feels too big, when trying has not worked, or when a worry keeps coming back. Offer two tools. The stuck timer: try for ten minutes, then ask. The size check: rate the problem from 1 to 5, and ask if it stays at 4 or 5 for a few days. Notice changes in sleep, mood, eating or schoolwork, and gently ask about them. If a child seems very scared or overwhelmed, stay close and call your local emergency number if you need urgent help."
+        }
+      },
+      "check": {
+        "question": "Which of these is a good time to ask for help?",
+        "options": [
+          "When a worry keeps coming back or feels too big",
+          "Only after you have fixed everything alone",
+          "Never, because it will go away if you ignore it"
+        ],
+        "answer": 0,
+        "explain": "A worry that stays, or a problem that feels too big, is a good moment to ask. Asking early usually keeps things smaller and easier."
+      }
+    },
+    {
+      "id": "who-to-ask",
+      "core": true,
+      "variants": {
+        "simple": {
+          "title": "Choosing who to ask",
+          "body": "Pick someone who listens and is kind. It could be a parent, a teacher, a school counsellor, or another trusted grown-up. If one is busy, try another.",
+          "body_someone_else": "Help the child name people they trust: a parent, a teacher, a school counsellor, or another trusted grown-up. Let them choose. Remind them they can try a second person."
+        },
+        "standard": {
+          "title": "Choosing who to ask",
+          "body": "Pick someone who listens, stays calm and wants good things for you. At home that might be a parent or carer. At school it could be a teacher or the school counsellor. It can also be another trusted grown-up, such as a relative, a coach or a family friend. You do not have to pick the first person you think of. Start with whoever feels safest.",
+          "body_someone_else": "Children often do not know who counts as a safe person. Help them name people they trust: a parent or carer, a teacher, the school counsellor, or another trusted grown-up. Let them choose, even if it is not you. Tell them it is fine to ask more than one person, and that you will be glad if someone else helps. The aim is that they have someone."
+        },
+        "deep": {
+          "title": "Choosing who to ask",
+          "body": "Pick someone who listens, stays calm and wants good things for you. At home that might be a parent or carer. At school it could be a teacher or the school counsellor. Adults might choose a friend, a relative, a doctor or a manager. Try making a helpers list of three people: one at home, one at school or work, and one other. Write their names on a card or in your phone, with a note on what each is good at, such as listening, ideas or practical help. Then you already know who to go to when something feels big.",
+          "body_someone_else": "Children often do not know who counts as a safe person. Sit down together and make a helpers list of three trusted people: one at home, one at school and one other, such as a relative, a coach or a family friend. Write the names on a card for their bag, with a note of what each is good at. Let them choose, even if it is not you. Tell them it is fine to ask more than one person, and that you will be glad if someone else helps. Update the list as they grow."
+        }
+      },
+      "check": {
+        "question": "Who could you ask for help?",
+        "options": [
+          "Only a stranger online",
+          "No one, because you must cope alone",
+          "A parent, a teacher, a school counsellor, or another trusted grown-up"
+        ],
+        "answer": 2,
+        "explain": "Choose someone who listens and is kind, such as a parent, teacher, school counsellor or other trusted grown-up. You can try more than one person."
+      }
+    },
+    {
+      "id": "how-to-start",
+      "core": true,
+      "variants": {
+        "simple": {
+          "title": "Simple ways to start",
+          "body": "Starting is the hardest part. Try 'Can I tell you something?' or 'I need help with...' Go slowly. You can also say, 'This is hard to say.'",
+          "body_someone_else": "Give children words to start with: 'Can I tell you something?' or 'I need help with...' Practise them together. 'This is hard to say' is a fine start too."
+        },
+        "standard": {
+          "title": "Simple ways to start",
+          "body": "The first sentence is the hardest, so borrow one. Try 'Can I tell you something?', 'I need help with...', 'Do you have a few minutes?' or 'This is hard for me to say.' Say it slowly. You do not need perfect words, and you do not need to explain everything at once. Once you have started, the next sentence is easier.",
+          "body_someone_else": "The first sentence is the hardest, so give children words to borrow: 'Can I tell you something?', 'I need help with...', 'Do you have a few minutes?' or 'This is hard for me to say.' Practise them in a relaxed moment. Make clear that they do not need perfect words or the whole story at once. Whatever they say first, thank them for starting."
+        },
+        "deep": {
+          "title": "Simple ways to start",
+          "body": "The first sentence is the hardest, so borrow one. Try 'Can I tell you something?', 'I need help with...', 'Do you have a few minutes?' or 'This is hard for me to say.' If the words will not come, use another way in: write a note, send a message, or ask for a time, such as 'Could we talk after dinner?' Say your first line out loud once beforehand so it feels familiar, and take one slow breath before you speak. You do not need the whole story. A first sentence and a pause are enough, and the other person can take it from there.",
+          "body_someone_else": "The first sentence is the hardest, so give children words to borrow: 'Can I tell you something?', 'I need help with...', 'Do you have a few minutes?' or 'This is hard for me to say.' Practise them in a relaxed moment, such as in the car. Offer other ways in, too: a note, a message, or a set time such as after dinner. Whatever they say first, stay calm, thank them for starting, and ask 'Do you want to tell me more?' How you meet the first try sets the tone for the next one."
+        }
+      },
+      "check": {
+        "question": "Which of these is a good way to start asking for help?",
+        "options": [
+          "Wait for them to guess what is wrong",
+          "Say, 'Can I tell you something?'",
+          "Say nothing and hope they notice"
+        ],
+        "answer": 1,
+        "explain": "A simple starter such as 'Can I tell you something?' gets the talk going. People cannot always guess what is wrong, so a few words help a lot."
+      }
+    },
+    {
+      "id": "say-what-you-need",
+      "core": false,
+      "variants": {
+        "simple": {
+          "title": "Say what you need",
+          "body": "Say what is wrong, and say what you need. 'I am worried about the test. Can you sit with me?' Do you need a listener, an idea, or company?",
+          "body_someone_else": "Help the child say what they need as well as what is wrong. Do they need you to listen, help them think, or do something with them? Offer these as choices."
+        },
+        "standard": {
+          "title": "Say what you need",
+          "body": "When you ask, try to say two things: what is going on, and what you need. 'I am worried about the test, and I need someone to go over it with me.' People often want to help but do not know how. Telling them whether you need listening, ideas, company or action makes it much easier for them to get it right.",
+          "body_someone_else": "Children often say what is wrong but not what they need, and then feel let down when the reply is not what they hoped. Offer choices: 'Do you want me to listen, help you think, or do something with you?' Over time they will name it themselves. If you are not sure what they need, it is fine to ask."
+        },
+        "deep": {
+          "title": "Say what you need",
+          "body": "When you ask, try to say two things: what is going on, and what you need. Use a three-part sentence: 'Something is going on' (what happened), 'I feel...' (the feeling), and 'What would help is...' (the need). For example: 'I am stuck on my project, I feel worried, and what would help is if you sat with me for ten minutes.' Needs can be listening, ideas, company, practical help, or someone to speak up for you. People often want to help but do not know how, so naming it makes it easy.",
+          "body_someone_else": "Children often say what is wrong but not what they need, then feel let down when the reply is not what they hoped. Teach the three-part sentence: 'Something is going on', 'I feel...', 'What would help is...'. Offer choices to fill the last part: 'Do you want me to listen, help you think, sit with you, or talk to someone for you?' Model it yourself: 'I am tired, and what would help is ten quiet minutes.' Children copy what they hear, and over time they will start to name their needs for themselves, in their own words."
+        }
+      },
+      "check": {
+        "question": "Which sentence says what you need, not only what is wrong?",
+        "options": [
+          "Everything is awful",
+          "I am fine, forget it",
+          "I am worried about my test, and I need you to go over it with me"
+        ],
+        "answer": 2,
+        "explain": "Saying what you need, such as company or a helping hand, makes it easier for someone to give the right kind of help."
+      }
+    },
+    {
+      "id": "if-they-say-no",
+      "core": false,
+      "variants": {
+        "simple": {
+          "title": "If they are busy or say no",
+          "body": "Sometimes a grown-up is busy or says not now. That is not about you. Ask, 'When can we talk?' Or ask someone else. Keep trying until someone listens.",
+          "body_someone_else": "If you must say not now, say when you will listen, and keep that promise. Say it is not about them. Children learn to ask again when we do this."
+        },
+        "standard": {
+          "title": "If they are busy or say no",
+          "body": "Sometimes the person you ask is busy, tired or does not understand at first. That does not mean your problem is small, and it is not about you. Try asking, 'When would be a better time?' If you still do not feel heard, try again with the same person in a different way, or go to someone else on your list. Keep going until someone listens.",
+          "body_someone_else": "If you must say 'not now', say when you will listen, and keep that promise. Make clear it is not about the child or the size of their problem. A child who gets a no, or a half-listen, may stop asking altogether, so welcome a second try warmly. Tell them it is fine to ask another trusted grown-up too."
+        },
+        "deep": {
+          "title": "If they are busy or say no",
+          "body": "Sometimes the person you ask is busy, tired or does not understand at first. That is not about you, and it does not mean your problem is small. Use the ask-twice plan. First, name a time: 'When would be a better moment to talk?' Second, try again later with a clear opening: 'This matters to me, and I need ten minutes.' Still not heard? Move to the next person on your helpers list. If something feels too big or scary right now, say so plainly, tell a trusted grown-up straight away, or call your local emergency number.",
+          "body_someone_else": "If you must say 'not now', say when you will listen, and keep that promise. Make clear it is not about the child or the size of their problem. A child who gets a no, or a half-listen, may stop asking, so teach the ask-twice plan: name a better time, then try again with 'This matters to me.' Welcome the second try warmly. Tell them it is also fine to go to another trusted grown-up on their list. If a child says something feels too big or scary, drop what you are doing and listen, and call your local emergency number if you need urgent help."
+        }
+      },
+      "check": {
+        "question": "A grown-up says they are too busy right now. What is a good next step?",
+        "options": [
+          "Ask when a better time would be, or ask someone else",
+          "Decide that nobody can help",
+          "Say 'never mind' and keep it secret"
+        ],
+        "answer": 0,
+        "explain": "A busy moment is not a no to you. Ask for a better time, try again, or go to another trusted grown-up."
+      }
+    },
+    {
+      "id": "say-thanks",
+      "core": false,
+      "variants": {
+        "simple": {
+          "title": "Saying thank you and checking it helped",
+          "body": "Say thank you when someone helps. Later, tell them if it helped. If it did not, say so. You can ask for a different kind of help.",
+          "body_someone_else": "Thank children for asking, and ask later, 'Did that help?' If not, try another way together. Show that asking again is always welcome."
+        },
+        "standard": {
+          "title": "Saying thank you and checking it helped",
+          "body": "Saying thank you shows you value the help, and it makes it easier to ask again. A little later, check whether it worked: 'That idea helped,' or 'It is still hard. Can we try something else?' Help does not always work the first time. Telling the truth about whether it helped is not rude. It is how you get the right help.",
+          "body_someone_else": "Thank children for asking, and mean it: 'I'm glad you came to me.' A day or two later, check in: 'Did that help?' Accept an honest 'not really' without taking it personally, and try a different approach together. Remind them that thank you can be said in their own way, and that feeling a little better counts as progress, even if the problem is not gone yet."
+        },
+        "deep": {
+          "title": "Saying thank you and checking it helped",
+          "body": "Saying thank you shows you value the help, and it makes it easier to ask again. A little later, check whether it worked. Try a two-line check-in: 'Thank you, that helped with...' or 'It is still hard with...; can we try something else?' You can also keep a tiny note: what I asked, whether it helped, and what to try next. Help does not always work the first time, and telling the truth about it is not rude. It is how you get the right help. Each time you ask, you build a habit, and a person who knows you better.",
+          "body_someone_else": "Thank children for asking, and mean it: 'I'm glad you came to me.' A day or two later, check in with a simple 'Did that help?' Accept an honest 'not really' without taking it personally, and try another approach together. Suggest a tiny note they can keep: what I asked, whether it helped, and what to try next. Show them that thank you can be a word, a drawing or a smile. Progress counts even when the problem is not gone. Each time asking goes well, they are more likely to ask again."
+        }
+      },
+      "check": {
+        "question": "After someone helps you, what is a good thing to do?",
+        "options": [
+          "Never mention it again, even if it did not help",
+          "Say thank you, and later say whether it helped",
+          "Pretend everything is fixed"
+        ],
+        "answer": 1,
+        "explain": "Thanking people and being honest about whether it helped makes it easier to get the right help next time."
+      }
+    }
+  ]
+}

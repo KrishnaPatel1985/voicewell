@@ -1,0 +1,29 @@
+services:
+  - type: web
+    name: voicewell
+    runtime: docker
+    plan: free
+    healthCheckPath: /
+    envVars:
+      - key: KID_SECRET_KEY
+        sync: false
+      - key: KID_API_BASE
+        sync: false
+      - key: INWORLD_REALTIME_KEY
+        sync: false
+      - key: INWORLD_STANDARD_KEY
+        sync: false
+      - key: MODULATE_API_KEY
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true
+      - key: LLM_MODEL
+        sync: false
+      - key: FEEDBACK_MODEL
+        sync: false
+      - key: FRONTEND_ORIGIN
+        sync: false
+      - key: VITE_KID_PUBLISHABLE_KEY
+        sync: false
+      - key: VITE_KID_BASE_URL
+        sync: false

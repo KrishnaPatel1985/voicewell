@@ -1,0 +1,257 @@
+{
+  "topic": "stress",
+  "title": "Stress and emotional well-being",
+  "summary": "Talk about stress.",
+  "icon": "spark",
+  "order": 1,
+  "practice_goal": {
+    "myself": "You are Sam; the learner wants to talk about stress with you.",
+    "someone-else": "You are a teen who is guarded about stress; the learner wants to support you."
+  },
+  "persona_rules": {
+    "myself": [
+      {
+        "minAge": 65,
+        "persona": "doctor"
+      },
+      {
+        "persona": "trusted-adult"
+      }
+    ],
+    "someone-else": [
+      {
+        "persona": "guarded-teen"
+      }
+    ]
+  },
+  "key_questions": {
+    "myself": [
+      "How long has this been going on?",
+      "What would help most right now?",
+      "Who could support me?"
+    ],
+    "someone-else": [
+      "What has been hardest lately?",
+      "Would you like me to listen or help?"
+    ]
+  },
+  "concepts": [
+    {
+      "id": "c1",
+      "core": true,
+      "variants": {
+        "simple": {
+          "title": "c1 simple",
+          "body": "c1 body simple",
+          "body_someone_else": "c1 helper body simple"
+        },
+        "standard": {
+          "title": "c1 standard",
+          "body": "c1 body standard",
+          "body_someone_else": "c1 helper body standard"
+        },
+        "deep": {
+          "title": "c1 deep",
+          "body": "c1 body deep",
+          "body_someone_else": "c1 helper body deep"
+        }
+      },
+      "check": {
+        "question": "Question 1?",
+        "options": [
+          "a",
+          "b",
+          "c"
+        ],
+        "answer": 1,
+        "explain": "Because b 1."
+      }
+    },
+    {
+      "id": "c2",
+      "core": true,
+      "variants": {
+        "simple": {
+          "title": "c2 simple",
+          "body": "c2 body simple",
+          "body_someone_else": "c2 helper body simple"
+        },
+        "standard": {
+          "title": "c2 standard",
+          "body": "c2 body standard",
+          "body_someone_else": "c2 helper body standard"
+        },
+        "deep": {
+          "title": "c2 deep",
+          "body": "c2 body deep",
+          "body_someone_else": "c2 helper body deep"
+        }
+      },
+      "check": {
+        "question": "Question 2?",
+        "options": [
+          "a",
+          "b",
+          "c"
+        ],
+        "answer": 1,
+        "explain": "Because b 2."
+      }
+    },
+    {
+      "id": "c3",
+      "core": true,
+      "variants": {
+        "simple": {
+          "title": "c3 simple",
+          "body": "c3 body simple",
+          "body_someone_else": "c3 helper body simple"
+        },
+        "standard": {
+          "title": "c3 standard",
+          "body": "c3 body standard",
+          "body_someone_else": "c3 helper body standard"
+        },
+        "deep": {
+          "title": "c3 deep",
+          "body": "c3 body deep",
+          "body_someone_else": "c3 helper body deep"
+        }
+      },
+      "check": {
+        "question": "Question 3?",
+        "options": [
+          "a",
+          "b",
+          "c"
+        ],
+        "answer": 1,
+        "explain": "Because b 3."
+      }
+    },
+    {
+      "id": "c4",
+      "core": true,
+      "variants": {
+        "simple": {
+          "title": "c4 simple",
+          "body": "c4 body simple",
+          "body_someone_else": "c4 helper body simple"
+        },
+        "standard": {
+          "title": "c4 standard",
+          "body": "c4 body standard",
+          "body_someone_else": "c4 helper body standard"
+        },
+        "deep": {
+          "title": "c4 deep",
+          "body": "c4 body deep",
+          "body_someone_else": "c4 helper body deep"
+        }
+      },
+      "check": {
+        "question": "Question 4?",
+        "options": [
+          "a",
+          "b",
+          "c"
+        ],
+        "answer": 1,
+        "explain": "Because b 4."
+      }
+    },
+    {
+      "id": "c5",
+      "core": false,
+      "variants": {
+        "simple": {
+          "title": "c5 simple",
+          "body": "c5 body simple",
+          "body_someone_else": "c5 helper body simple"
+        },
+        "standard": {
+          "title": "c5 standard",
+          "body": "c5 body standard",
+          "body_someone_else": "c5 helper body standard"
+        },
+        "deep": {
+          "title": "c5 deep",
+          "body": "c5 body deep",
+          "body_someone_else": "c5 helper body deep"
+        }
+      },
+      "check": {
+        "question": "Question 5?",
+        "options": [
+          "a",
+          "b",
+          "c"
+        ],
+        "answer": 1,
+        "explain": "Because b 5."
+      }
+    },
+    {
+      "id": "c6",
+      "core": false,
+      "variants": {
+        "simple": {
+          "title": "c6 simple",
+          "body": "c6 body simple",
+          "body_someone_else": "c6 helper body simple"
+        },
+        "standard": {
+          "title": "c6 standard",
+          "body": "c6 body standard",
+          "body_someone_else": "c6 helper body standard"
+        },
+        "deep": {
+          "title": "c6 deep",
+          "body": "c6 body deep",
+          "body_someone_else": "c6 helper body deep"
+        }
+      },
+      "check": {
+        "question": "Question 6?",
+        "options": [
+          "a",
+          "b",
+          "c"
+        ],
+        "answer": 1,
+        "explain": "Because b 6."
+      }
+    },
+    {
+      "id": "c7",
+      "core": false,
+      "variants": {
+        "simple": {
+          "title": "c7 simple",
+          "body": "c7 body simple",
+          "body_someone_else": "c7 helper body simple"
+        },
+        "standard": {
+          "title": "c7 standard",
+          "body": "c7 body standard",
+          "body_someone_else": "c7 helper body standard"
+        },
+        "deep": {
+          "title": "c7 deep",
+          "body": "c7 body deep",
+          "body_someone_else": "c7 helper body deep"
+        }
+      },
+      "check": {
+        "question": "Question 7?",
+        "options": [
+          "a",
+          "b",
+          "c"
+        ],
+        "answer": 1,
+        "explain": "Because b 7."
+      }
+    }
+  ]
+}

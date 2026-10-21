@@ -1,0 +1,253 @@
+{
+  "topic": "menopause",
+  "title": "Understanding menopause",
+  "summary": "Talk about menopause.",
+  "icon": "heart",
+  "order": 2,
+  "practice_goal": {
+    "myself": "You are a doctor; the learner wants to describe changes they have noticed.",
+    "someone-else": "You are Linda, the learner's mum, talking about changes she has noticed."
+  },
+  "persona_rules": {
+    "myself": [
+      {
+        "persona": "doctor"
+      }
+    ],
+    "someone-else": [
+      {
+        "persona": "relative"
+      }
+    ]
+  },
+  "key_questions": {
+    "myself": [
+      "When did the changes start?",
+      "What can I do to feel better day to day?",
+      "What should I watch for?"
+    ],
+    "someone-else": [
+      "How have you been sleeping?",
+      "How can I help?"
+    ]
+  },
+  "concepts": [
+    {
+      "id": "m1",
+      "core": true,
+      "variants": {
+        "simple": {
+          "title": "c1 simple",
+          "body": "c1 body simple",
+          "body_someone_else": "c1 helper body simple"
+        },
+        "standard": {
+          "title": "c1 standard",
+          "body": "c1 body standard",
+          "body_someone_else": "c1 helper body standard"
+        },
+        "deep": {
+          "title": "c1 deep",
+          "body": "c1 body deep",
+          "body_someone_else": "c1 helper body deep"
+        }
+      },
+      "check": {
+        "question": "Question 1?",
+        "options": [
+          "a",
+          "b",
+          "c"
+        ],
+        "answer": 1,
+        "explain": "Because b 1."
+      }
+    },
+    {
+      "id": "m2",
+      "core": true,
+      "variants": {
+        "simple": {
+          "title": "c2 simple",
+          "body": "c2 body simple",
+          "body_someone_else": "c2 helper body simple"
+        },
+        "standard": {
+          "title": "c2 standard",
+          "body": "c2 body standard",
+          "body_someone_else": "c2 helper body standard"
+        },
+        "deep": {
+          "title": "c2 deep",
+          "body": "c2 body deep",
+          "body_someone_else": "c2 helper body deep"
+        }
+      },
+      "check": {
+        "question": "Question 2?",
+        "options": [
+          "a",
+          "b",
+          "c"
+        ],
+        "answer": 1,
+        "explain": "Because b 2."
+      }
+    },
+    {
+      "id": "m3",
+      "core": true,
+      "variants": {
+        "simple": {
+          "title": "c3 simple",
+          "body": "c3 body simple",
+          "body_someone_else": "c3 helper body simple"
+        },
+        "standard": {
+          "title": "c3 standard",
+          "body": "c3 body standard",
+          "body_someone_else": "c3 helper body standard"
+        },
+        "deep": {
+          "title": "c3 deep",
+          "body": "c3 body deep",
+          "body_someone_else": "c3 helper body deep"
+        }
+      },
+      "check": {
+        "question": "Question 3?",
+        "options": [
+          "a",
+          "b",
+          "c"
+        ],
+        "answer": 1,
+        "explain": "Because b 3."
+      }
+    },
+    {
+      "id": "m4",
+      "core": true,
+      "variants": {
+        "simple": {
+          "title": "c4 simple",
+          "body": "c4 body simple",
+          "body_someone_else": "c4 helper body simple"
+        },
+        "standard": {
+          "title": "c4 standard",
+          "body": "c4 body standard",
+          "body_someone_else": "c4 helper body standard"
+        },
+        "deep": {
+          "title": "c4 deep",
+          "body": "c4 body deep",
+          "body_someone_else": "c4 helper body deep"
+        }
+      },
+      "check": {
+        "question": "Question 4?",
+        "options": [
+          "a",
+          "b",
+          "c"
+        ],
+        "answer": 1,
+        "explain": "Because b 4."
+      }
+    },
+    {
+      "id": "m5",
+      "core": false,
+      "variants": {
+        "simple": {
+          "title": "c5 simple",
+          "body": "c5 body simple",
+          "body_someone_else": "c5 helper body simple"
+        },
+        "standard": {
+          "title": "c5 standard",
+          "body": "c5 body standard",
+          "body_someone_else": "c5 helper body standard"
+        },
+        "deep": {
+          "title": "c5 deep",
+          "body": "c5 body deep",
+          "body_someone_else": "c5 helper body deep"
+        }
+      },
+      "check": {
+        "question": "Question 5?",
+        "options": [
+          "a",
+          "b",
+          "c"
+        ],
+        "answer": 1,
+        "explain": "Because b 5."
+      }
+    },
+    {
+      "id": "m6",
+      "core": false,
+      "variants": {
+        "simple": {
+          "title": "c6 simple",
+          "body": "c6 body simple",
+          "body_someone_else": "c6 helper body simple"
+        },
+        "standard": {
+          "title": "c6 standard",
+          "body": "c6 body standard",
+          "body_someone_else": "c6 helper body standard"
+        },
+        "deep": {
+          "title": "c6 deep",
+          "body": "c6 body deep",
+          "body_someone_else": "c6 helper body deep"
+        }
+      },
+      "check": {
+        "question": "Question 6?",
+        "options": [
+          "a",
+          "b",
+          "c"
+        ],
+        "answer": 1,
+        "explain": "Because b 6."
+      }
+    },
+    {
+      "id": "m7",
+      "core": false,
+      "variants": {
+        "simple": {
+          "title": "c7 simple",
+          "body": "c7 body simple",
+          "body_someone_else": "c7 helper body simple"
+        },
+        "standard": {
+          "title": "c7 standard",
+          "body": "c7 body standard",
+          "body_someone_else": "c7 helper body standard"
+        },
+        "deep": {
+          "title": "c7 deep",
+          "body": "c7 body deep",
+          "body_someone_else": "c7 helper body deep"
+        }
+      },
+      "check": {
+        "question": "Question 7?",
+        "options": [
+          "a",
+          "b",
+          "c"
+        ],
+        "answer": 1,
+        "explain": "Because b 7."
+      }
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "topic": "body-feelings",
+  "title": "How my body shows my feelings",
+  "summary": "Notice how feelings show up in your body, find words for them, and tell a trusted grown-up what you need.",
+  "icon": "heart",
+  "order": 4,
+  "practice_goal": {
+    "myself": "The learner practises telling their parent or a trusted adult how their body feels, which feeling might go with it, and what they need, such as a drink, a quiet minute or a break. Listen warmly and ask gentle questions.",
+    "someone-else": "The learner is a parent, carer or teacher practising how to help a child or teen notice and name what they feel in their body, by listening without fixing or judging."
+  },
+  "persona_rules": {
+    "myself": [
+      {
+        "maxAge": 17,
+        "persona": "parent"
+      },
+      {
+        "persona": "trusted-adult"
+      }
+    ],
+    "someone-else": [
+      {
+        "persona": "guarded-teen"
+      }
+    ]
+  },
+  "key_questions": {
+    "myself": [
+      "Is it normal for my tummy to feel like this when I am worried?",
+      "What can I do when my body feels tight or fast?",
+      "Can I have a break when a feeling gets big?",
+      "Can we talk about it again later?"
+    ],
+    "someone-else": [
+      "Where in your body do you notice that feeling?",
+      "Is it a small, medium or big feeling right now?",
+      "What does your body need right now?",
+      "Would you like me to listen, or help with ideas?",
+      "Is there a signal you would like to use when you need a break?"
+    ]
+  },
+  "concepts": [
+    {
+      "id": "feelings-in-the-body",
+      "core": true,
+      "variants": {
+        "simple": {
+          "title": "Feelings show up in your body",
+          "body": "Feelings show up in your body. Worry can make a tight tummy. Fear can make your heart go fast. Nerves can make your hands sweaty. Your face shows feelings too.",
+          "body_someone_else": "Children feel feelings in their bodies. Worry can be a tight tummy. Fear can be a fast heart. Nerves can be sweaty hands. A face can show feelings too."
+        },
+        "standard": {
+          "title": "Feelings show up in your body",
+          "body": "Feelings are not only in your head. They show up in your body too. Worry might tighten your tummy. Fear or excitement might make your heart beat fast. Nerves can make your hands shaky or sweaty, and your face might frown, blush or go still. These are signals that something matters to you, and everyone's body does it a little differently.",
+          "body_someone_else": "Children often feel feelings in their bodies before they have words for them. A tight tummy, a fast heart, shaky hands or a frowning face can all be signals. A child might say 'my tummy feels funny' when they mean they are worried. Noticing these signals together, without judging them, helps a child learn that body clues and feelings are connected."
+        },
+        "deep": {
+          "title": "Feelings show up in your body",
+          "body": "Feelings are not only in your head. They show up in your body: a tight tummy with worry, a racing heart with fear or excitement, heavy shoulders when you feel sad, sweaty hands when you are nervous, a face that frowns, flushes or goes blank. These signals are information, not a problem, and they differ from person to person. Try a ten-second body check: pause, then ask 'Where do I feel something right now, and what does it feel like?' Look for one spot, such as tummy, chest, hands or face. Noticing the spot is the first step to knowing the feeling.",
+          "body_someone_else": "Children often feel feelings in their bodies before they have words for them. A tight tummy, a racing heart, heavy limbs, shaky hands or a frown can all be signals, and a child may say 'my tummy feels funny' when they mean worried. Treat these as useful clues, not complaints to brush aside. Try a gentle body check together: ask 'Where in your body do you notice something right now?' and let them point or draw it. Do not guess the feeling for them. Finding the spot is often the first step to finding words, and then you can offer one, such as 'That might be worry. Does that fit?'"
+        }
+      },
+      "check": {
+        "question": "Your tummy feels tight before a big test. What might that tell you?",
+        "options": [
+          "Nothing, because feelings never show up in the body",
+          "Your body may be showing a feeling, like worry",
+          "You must have done something bad"
+        ],
+        "answer": 1,
+        "explain": "Feelings often show up in the body, such as a tight tummy with worry. It is a normal signal, not a problem. If a feeling ever seems too big, tell a trusted grown-up."
+      }
+    },
+    {
+      "id": "naming-a-feeling",
+      "core": true,
+      "variants": {
+        "simple": {
+          "title": "Giving your feeling a name",
+          "body": "A feeling needs a name. Is it happy, sad, mad, scared or worried? Saying 'I feel worried' helps. Pick the word that fits best. You can change it later.",
+          "body_someone_else": "Help children find a word for the feeling. Is it happy, sad, mad, scared or worried? Offer a few choices. Any word they pick is fine. They can change it later."
+        },
+        "standard": {
+          "title": "Giving your feeling a name",
+          "body": "Putting a name on a feeling helps it feel smaller and easier to share. Start with simple words like happy, sad, angry, scared, worried or excited. Then try a sentence: 'I feel ___ because ___.' The word does not have to be perfect. If the one you pick does not fit, you can swap it for a better one. Grown-ups find this useful too.",
+          "body_someone_else": "Children cannot ask for what they need until they have a word for how they feel. Offer a short menu of simple words, such as happy, sad, angry, scared, worried or excited, or use a chart with faces. Try a sentence starter such as 'I feel ___ because ___.' If their first word is a little off, that is fine. They can try another, and you can say the words out loud yourself to show it is okay."
+        },
+        "deep": {
+          "title": "Giving your feeling a name",
+          "body": "Putting a name on a feeling helps it feel smaller and easier to share. Start with simple words such as happy, sad, angry, scared, worried or excited, then try to be more exact: is 'angry' really 'left out' or 'embarrassed'? A useful sentence is 'I feel ___ because ___, and I need ___.' For example: 'I feel nervous because I have a test, and I need a few quiet minutes.' The word does not have to be perfect. If it does not fit, swap it for a better one. Naming feelings gets easier with practice.",
+          "body_someone_else": "Children cannot ask for what they need until they have words for how they feel. Offer a short menu of simple words, such as happy, sad, angry, scared, worried or excited, or use a chart of faces. Model the pattern 'I feel ___ because ___, and I need ___' with your own feelings first, such as 'I feel tired because it was a long day, and I need a quiet minute.' Then invite them to try. If their word is not quite right, let them swap it. Praise the trying, not the word."
+        }
+      },
+      "check": {
+        "question": "Which sentence helps a grown-up understand how you feel?",
+        "options": [
+          "I feel worried because I have a test today",
+          "I don't have any feelings",
+          "Never mind, it is nothing"
+        ],
+        "answer": 0,
+        "explain": "A short sentence with a feeling word and a reason gives a grown-up something to work with. The word does not have to be perfect, and you can change it later."
+      }
+    },
+    {
+      "id": "mixed-feelings",
+      "core": true,
+      "variants": {
+        "simple": {
+          "title": "Mixed and not-sure feelings",
+          "body": "Sometimes you feel two things at once, like excited and scared. Sometimes you do not know what you feel. That is normal. You can say, 'I am not sure.'",
+          "body_someone_else": "Children can feel two things at once, like excited and scared. They may not know what they feel. That is normal. 'I am not sure' is a fine answer."
+        },
+        "standard": {
+          "title": "Mixed and not-sure feelings",
+          "body": "Feelings do not always come one at a time. You can be excited and nervous about a new school, or happy and sad at the same time. Sometimes you cannot tell what you feel at all, and that is normal too. 'I'm not sure, but something feels odd' is a good thing to say. You can work out the rest slowly, with someone's help.",
+          "body_someone_else": "Children often feel two feelings at once, such as excited and nervous about a trip, or happy and sad when a friend moves away. Many also say 'I don't know' because they truly are not sure. Treat both as normal. You might say, 'It's okay to feel a few things at once,' and offer 'Is it a bit like worried, or more like sad?' without pressing for one right answer."
+        },
+        "deep": {
+          "title": "Mixed and not-sure feelings",
+          "body": "Feelings do not always come one at a time. You can be excited and nervous about a new school, or relieved and sad when something ends. Sometimes you cannot tell what you feel at all. That is normal, and it does not mean you are doing it badly. Try the sentence 'Part of me feels ___, and part of me feels ___.' If you cannot find words, describe the body clue instead: 'My chest feels tight and my tummy feels fizzy.' That is enough for someone to start listening and to help you sort it out.",
+          "body_someone_else": "Children often feel two feelings at once, such as excited and nervous about a trip, or happy and sad when a friend moves away. Many say 'I don't know' because they truly are not sure, not because they are dodging. Treat both as normal: 'It's okay to feel a few things at once.' Offer the sentence 'Part of me feels ___, and part of me feels ___,' or invite them to describe the body clue instead. Do not push for one right answer. Accepting 'not sure' keeps the door open for later."
+        }
+      },
+      "check": {
+        "question": "You feel excited and scared about starting a new club. What is true?",
+        "options": [
+          "You must pick just one feeling",
+          "Feeling two things at once is normal",
+          "It means you should not go"
+        ],
+        "answer": 1,
+        "explain": "Mixed feelings are very common, especially before something new. You can say both, or say you are not sure, and a trusted grown-up can help you sort them out."
+      }
+    },
+    {
+      "id": "big-and-small-feelings",
+      "core": true,
+      "variants": {
+        "simple": {
+          "title": "Big feelings and small feelings",
+          "body": "Feelings come in sizes. A small feeling is like a drizzle. A big feeling is like a storm. You can say, 'This one is big.' Big feelings pass, like weather.",
+          "body_someone_else": "Feelings come in sizes. Ask, 'Is this feeling small, medium or big?' Big feelings pass, like weather. Your calm company helps more than words."
+        },
+        "standard": {
+          "title": "Big feelings and small feelings",
+          "body": "Feelings come in different sizes. A small feeling might be a little annoyed. A big one can feel like it fills your whole body. Try rating it from 1 to 5, or small, medium and big. Saying the size tells people how much help you need. Big feelings are real and allowed, and like weather, they change and pass.",
+          "body_someone_else": "Children feel feelings at different sizes, and big ones can fill their whole body. A simple scale helps: small, medium or big, or 1 to 5. Ask 'How big is it right now?' and accept the answer without arguing. A big feeling is not misbehaviour, and it is not a bad sign. It is a feeling at full volume. Staying near and steady helps it settle, and you can talk afterwards."
+        },
+        "deep": {
+          "title": "Big feelings and small feelings",
+          "body": "Feelings come in different sizes, and a big one can feel like it fills your whole body. A simple scale helps you and other people: rate it 1 to 5, or small, medium, big. A 2 might need a deep breath, while a 5 might need a break and a trusted person nearby. Practise when feelings are small, so the scale is easy to use when they are big. Say 'I am at a 4 and rising' before it peaks. Big feelings are real and allowed. Like weather, they change and pass, usually sooner than they seem to.",
+          "body_someone_else": "Children feel feelings at different sizes, and a big one can fill their whole body. A simple scale makes it easier to share: small, medium, big, or 1 to 5. Agree on it at a relaxed time, perhaps with a drawing of a thermometer, so it is familiar when feelings run high. Then ask 'How big is it right now?' and accept their answer without arguing. A 2 may need a kind word; a 5 may need space and your quiet company. A big feeling is not misbehaviour. It is a feeling at full volume, and it passes. Talk it through afterwards."
+        }
+      },
+      "check": {
+        "question": "What does it mean to say 'This feeling is a 5 out of 5'?",
+        "options": [
+          "You are in trouble",
+          "The feeling is not real",
+          "It tells others how big the feeling is, so they know how to help"
+        ],
+        "answer": 2,
+        "explain": "Giving a feeling a size helps other people know how much support you need. Big feelings are real and they pass. For the biggest ones, a break and a trusted grown-up nearby can help."
+      }
+    },
+    {
+      "id": "what-my-body-needs",
+      "core": false,
+      "variants": {
+        "simple": {
+          "title": "What my body needs right now",
+          "body": "Ask your body, 'What do you need?' You might need water, a snack, a rest, a hug, or to move. Sometimes a feeling is really tired or hungry. Listen to your body.",
+          "body_someone_else": "Help children ask their body, 'What do you need?' It might be water, a snack, rest, a hug or movement. Sometimes a big feeling is really tiredness or hunger."
+        },
+        "standard": {
+          "title": "What my body needs right now",
+          "body": "Your body often tells you what it needs, if you stop and ask. Feeling grumpy or teary can be a sign you are hungry, thirsty, tired, or have been sitting too long. Ask yourself, 'Do I need food, water, rest, movement, quiet or a hug?' Meeting the need will not fix every feeling, but it often takes the edge off, so you can think more clearly.",
+          "body_someone_else": "A child's mood often follows their body. Grumpiness, tears or a short temper can mean hunger, thirst, tiredness or too much noise. Before problem-solving, check the basics: 'Have you had a drink and a snack? Do you need quiet or a move around?' Offer two choices rather than a long list. Meeting the need will not fix every feeling, but it often takes the edge off so they can talk."
+        },
+        "deep": {
+          "title": "What my body needs right now",
+          "body": "Your body often tells you what it needs, if you stop and ask. Grumpy, teary or short-tempered can mean hungry, thirsty, tired, or stuck inside for too long. Try a quick check of the basics: food, water, movement, rest, quiet, company. Pick the one that fits best and do it for a few minutes. Meeting a need will not solve every feeling, but it often takes the edge off, so you can think clearly and decide what to say. If you check the basics and the feeling is still big, that is a good moment to tell someone.",
+          "body_someone_else": "A child's mood often follows their body. Grumpiness, tears or a short temper can mean hunger, thirst, tiredness, too much noise, or too long without moving. Before problem-solving, run through the basics together: food, water, movement, rest, quiet, company. Offer two choices instead of a long list, such as 'Water or a snack first?' Build it into the routine, for example after school, so it feels like care rather than a question. Meeting a need will not fix every feeling, but it often takes the edge off so they can talk. If the feeling stays big, listen to it."
+        }
+      },
+      "check": {
+        "question": "You feel grumpy and teary after a long day. What could you check first?",
+        "options": [
+          "Whether you need food, water, rest or a quiet minute",
+          "Whether other people are better than you",
+          "Nothing, just push the feeling away"
+        ],
+        "answer": 0,
+        "explain": "Hunger, thirst and tiredness can make feelings bigger. Checking the basics is a kind first step. If the feeling stays big, tell a trusted grown-up."
+      }
+    },
+    {
+      "id": "telling-a-grown-up",
+      "core": false,
+      "variants": {
+        "simple": {
+          "title": "Telling a grown-up how I feel",
+          "body": "Tell a grown-up you trust. Say, 'I feel ___.' You can add, 'I need help.' They want to know. Telling someone makes the feeling lighter.",
+          "body_someone_else": "Children need to know they can tell you. Say, 'You can always tell me how you feel.' Listen first. Thank them for telling you."
+        },
+        "standard": {
+          "title": "Telling a grown-up how I feel",
+          "body": "Pick a grown-up you trust, such as a parent, carer or teacher. You can start with 'Can I tell you something?' Then say how you feel and where you feel it: 'I feel worried and my tummy is tight.' You can also say what would help, like a hug or just listening. Grown-ups cannot see inside you, so telling them is how they learn how to help.",
+          "body_someone_else": "Children tell us how they feel when they expect to be heard. Make it easy: pick a regular quiet time, stay calm, and listen before you fix. Thank them for telling you, even when it is about something small. Avoid saying 'you shouldn't feel like that' or rushing to solve it. Ask 'Do you want help, or do you want me to listen?' Each time you listen well, they trust you more with the next feeling."
+        },
+        "deep": {
+          "title": "Telling a grown-up how I feel",
+          "body": "Pick a grown-up you trust, such as a parent, carer or teacher, and a quiet moment. Grown-ups cannot see inside you, so telling them is how they learn to help. Try this script: 'Can I tell you something? I feel ___, and I feel it in my ___. What would help is ___.' For example: 'I feel worried, and I feel it in my tummy. What would help is a hug and some company.' If you cannot say it, point to a picture, write a note or send a message first. If a feeling ever seems too big or scary, tell a trusted grown-up right away.",
+          "body_someone_else": "Children tell us how they feel when they expect to be heard. Make it easy: choose a regular, relaxed moment such as bedtime or a car ride, stay calm, and listen before you fix. Thank them for telling you, even when it is small. Use three steps: reflect ('Sounds like your tummy felt tight'), offer a guess ('Was that worry?'), then ask 'Do you want help, or do you want me to listen?' Avoid 'you shouldn't feel like that.' If a child tells you something big or frightening, stay with them, take it seriously, and call your local emergency number if there is danger."
+        }
+      },
+      "check": {
+        "question": "What is a good way to start telling a grown-up how you feel?",
+        "options": [
+          "Keep it inside so they do not worry",
+          "Wait until they guess it",
+          "Say 'Can I tell you something? I feel worried.'"
+        ],
+        "answer": 2,
+        "explain": "Grown-ups cannot see inside you, so a short, clear sentence is the best way to let them help. Telling someone you trust is a brave and helpful step."
+      }
+    },
+    {
+      "id": "asking-for-a-break",
+      "core": false,
+      "variants": {
+        "simple": {
+          "title": "Asking for a break",
+          "body": "When a feeling gets too big, you can ask for a break. Say, 'I need a break, please.' Go to a quiet spot. Breathe slowly. Then come back when you are ready.",
+          "body_someone_else": "Let children know they can ask for a break. Agree on a word or a signal. Give them a quiet spot. Welcome them back with no fuss."
+        },
+        "standard": {
+          "title": "Asking for a break",
+          "body": "A break is a short pause to let a big feeling settle. You can say, 'I need a break, please.' Take a few minutes in a quiet spot, sip water, and breathe slowly. A break is not running away or being rude, and it is not a punishment. It is a tool. When you feel a bit steadier, go back and finish the talk or the task.",
+          "body_someone_else": "A break lets a big feeling settle before talking. Agree a word or signal your child can use, such as a card or 'pause please,' and a quiet place to go. Make clear it is a tool, not a punishment, and that you will not follow with questions. Check in afterwards with 'Do you feel steadier?' Welcoming them back without fuss teaches them that stepping away to cope is a skill."
+        },
+        "deep": {
+          "title": "Asking for a break",
+          "body": "A break is a short pause to let a big feeling settle, and asking for one is a skill. Choose your words ahead of time: 'I need a break, please. Can I come back in ten minutes?' Take it somewhere quiet, sip water, and breathe in for four counts and out for six, a few times. A break is not running away, being rude or giving up. It is a tool. When you feel steadier, go back and finish the talk or task. Agreeing a signal with a teacher or parent in advance makes it easier to ask.",
+          "body_someone_else": "A break lets a big feeling settle before anyone tries to talk or think. Agree a word or signal in advance at a calm time, such as a card or 'pause please,' and choose a quiet place with a drink of water. Make clear it is a tool, not a punishment, and that you will not question them while they are there. Offer a time to come back: 'Take ten minutes, then check in with me.' Afterwards, welcome them back without fuss and ask 'Do you feel steadier?' Each respected break shows them that stepping away to cope is a strength."
+        }
+      },
+      "check": {
+        "question": "When is it a good time to ask for a break?",
+        "options": [
+          "Only after you have shouted",
+          "When a feeling is getting too big to handle",
+          "Never, because breaks are rude"
+        ],
+        "answer": 1,
+        "explain": "Asking for a break early, before a feeling is at its biggest, works best. It is a calm, grown-up skill, and it is never rude."
+      }
+    }
+  ]
+}

@@ -1,0 +1,258 @@
+{
+  "topic": "doctor-visit",
+  "title": "Talking to the doctor or nurse",
+  "summary": "Learn what to expect at a visit, how to describe what you notice, and how to ask questions and check you understood.",
+  "icon": "calendar",
+  "order": 7,
+  "practice_goal": {
+    "myself": "The learner has come to see you, a doctor or nurse. They want to practise saying what they have noticed (where, when and how much), asking a question, and checking they understood. You only listen and ask questions, and you never say what anything might mean.",
+    "someone-else": "The learner is your grown-up child or relative. They want to practise helping you get ready for a visit to the doctor or nurse: asking what you have noticed, making a short list together, and offering to come along."
+  },
+  "persona_rules": {
+    "myself": [
+      {
+        "persona": "doctor"
+      }
+    ],
+    "someone-else": [
+      {
+        "persona": "older-parent"
+      }
+    ]
+  },
+  "key_questions": {
+    "myself": [
+      "Could you say that in simpler words?",
+      "What should I watch for, and when should I come back?",
+      "What is the next step?",
+      "Can I say that back to check I have it right?",
+      "Is it okay if I bring a list or a grown-up next time?"
+    ],
+    "someone-else": [
+      "What have you noticed, and when did it start?",
+      "What do you most want to ask the doctor?",
+      "Would you like me to come along and write things down?",
+      "Is there anything that feels embarrassing to say that we could write down?",
+      "Shall we make a short list together?"
+    ]
+  },
+  "concepts": [
+    {
+      "id": "what-happens",
+      "core": true,
+      "variants": {
+        "simple": {
+          "title": "What happens at a visit",
+          "body": "At a visit, a doctor or nurse says hello and asks you questions. They may listen, look, or measure things like height and weight. They are there to help. You can ask what is happening.",
+          "body_someone_else": "Tell the child what will happen: hello, questions, a check, a plan. Say the doctor or nurse is there to help. They can ask what is happening at any time."
+        },
+        "standard": {
+          "title": "What happens at a visit",
+          "body": "A visit usually goes in steps. A nurse or doctor says hello, asks why you came, and asks some questions. They may check things like height, weight or how you are doing, and explain what they are doing. Then they talk about a plan and what happens next. They are there to help you. You can ask what is going on at any step, and you can say if you feel nervous.",
+          "body_someone_else": "Children cope better when they know the steps: hello, questions, a check, a plan, goodbye. Describe them in plain words before the visit, and mention that a nurse may see them first. Let them know the doctor or nurse is there to help, and that they can ask 'What are you doing?' or say they feel nervous. Promise what you can: that you will be there."
+        },
+        "deep": {
+          "title": "What happens at a visit",
+          "body": "A visit usually goes in steps: hello, questions, a check, a plan, goodbye. A nurse may see you first. They may check things like height, weight or how you are doing, and the doctor will ask why you came. Picture the steps beforehand so nothing feels like a surprise. Try the pause phrase: before anything is done, you may ask, 'What are you going to do, and why?' You can also say 'I'm nervous' or 'Can we go slowly?' If something ever feels too big or scary, tell a trusted grown-up, or call your local emergency number instead of waiting for a visit.",
+          "body_someone_else": "Children cope better when they know the steps: hello, questions, a check, a plan, goodbye. Describe them in plain words the day before, and mention that a nurse may see them first. Teach one pause phrase they can use in the room: 'What are you going to do, and why?' Tell them they can say 'I'm nervous' or 'Can we go slowly?' Be honest that some checks can feel odd, and promise that you will be there. Do not use the visit as a threat or a bribe. If you need urgent help, call your local emergency number."
+        }
+      },
+      "check": {
+        "question": "What usually happens at a visit?",
+        "options": [
+          "You must stay silent while they work",
+          "The doctor or nurse asks questions and may check or measure things",
+          "You are not allowed to ask anything"
+        ],
+        "answer": 1,
+        "explain": "A visit has steps: hello, questions, a check and a plan. You are allowed to ask what is happening at any point."
+      }
+    },
+    {
+      "id": "where-when-how-much",
+      "core": true,
+      "variants": {
+        "simple": {
+          "title": "Where, when and how much",
+          "body": "Tell the doctor what you notice. Say where on your body it is. Say when it started. Say how much, like a little or a lot. Use your own words.",
+          "body_someone_else": "Help the child tell the doctor three things: where they notice it, when it started, and how much, like a little or a lot. Their own words are best."
+        },
+        "standard": {
+          "title": "Where, when and how much",
+          "body": "The most useful thing you can give a doctor is a clear picture of what you notice. Say where it is on your body, when it started, how often it happens, and how much it bothers you, like a little or a lot. Use everyday words, and say what makes it better or worse. You do not need to know what it is called or what causes it. Describing is enough.",
+          "body_someone_else": "Doctors need a clear picture of what the child has noticed. Help them find words for where it is, when it started, how often it happens, and how much it bothers them. Ask open questions and use their words, not yours. Do not guess a cause or put a label on it. Describing what they notice is enough, and it is the doctor's job to work out the rest."
+        },
+        "deep": {
+          "title": "Where, when and how much",
+          "body": "The most useful thing you can give a doctor is a clear picture of what you notice. Use the three-part note: where, when, how much. Where on your body? When did it start, and how often does it happen? How much, from 0 to 10, or like a gentle tap versus a hard squeeze? Add what makes it better or worse, and what it stops you doing. Write it in your own words and practise saying it once. You do not need to know what it is called or what causes it. Describing is enough, and the doctor takes it from there.",
+          "body_someone_else": "Doctors need a clear picture of what the child has noticed. Sit beside them with paper and use the three-part note: where, when, how much. Ask 'Where on your body?', 'When did you first notice it?' and 'How much, from 0 to 10, or like a gentle tap versus a hard squeeze?' Add what makes it better or worse. Write down their words, then read them back to check. Do not guess a cause or name it for them. Describing is enough, and the doctor will work out the rest."
+        }
+      },
+      "check": {
+        "question": "Which is a helpful way to tell the doctor what you notice?",
+        "options": [
+          "Say where it is, when it started, and how much",
+          "Say only 'I feel bad'",
+          "Guess what the doctor will find"
+        ],
+        "answer": 0,
+        "explain": "Where, when and how much give the doctor a clear picture. Working out the cause is the doctor's job, not yours."
+      }
+    },
+    {
+      "id": "tell-the-truth",
+      "core": true,
+      "variants": {
+        "simple": {
+          "title": "Telling the truth, even if it is embarrassing",
+          "body": "Tell the doctor the truth, even if it feels embarrassing. Doctors and nurses hear all kinds of things. They will not laugh. The truth helps them help you.",
+          "body_someone_else": "Tell the child that doctors and nurses hear all kinds of things and will not laugh. Say that telling the truth helps them help. Thank your child for being honest."
+        },
+        "standard": {
+          "title": "Telling the truth, even if it is embarrassing",
+          "body": "Some things feel embarrassing to say out loud. Doctors and nurses hear about all kinds of things every day, and they are not shocked or amused. Leaving something out, or changing it a little, can make it harder for them to help you. Telling the whole truth, in plain words, is the best way to get the right help. It is fine to say, 'This is a bit embarrassing.'",
+          "body_someone_else": "Children and teens often leave things out because they feel embarrassed or worry about being in trouble. Say clearly, before the visit, that doctors and nurses hear all kinds of things, they will not laugh, and honesty will not get anyone in trouble. Thank the child when they are honest, and stay calm when you hear things. Let them know it is fine to say, 'This is a bit embarrassing.'"
+        },
+        "deep": {
+          "title": "Telling the truth, even if it is embarrassing",
+          "body": "Some things feel embarrassing to say out loud. Doctors and nurses hear about all kinds of things every day, and they are not shocked or amused. Leaving something out, or changing it a little, can make it harder for them to help you. Try an embarrassment opener: 'This is a bit embarrassing, but...' or 'This is hard to say, so I wrote it down.' You can put it on your list and hand it over. You can also ask, 'Could I talk about something on my own?' Saying the hard thing first often makes the rest feel easier.",
+          "body_someone_else": "Children and teens often leave things out because they feel embarrassed. Before the visit, say clearly that doctors and nurses hear all kinds of things, they will not laugh, and honesty will not get anyone in trouble. Teach an embarrassment opener: 'This is a bit embarrassing, but...' Let them write it on their list and hand it over. For older children, explain that they can ask to talk with the doctor on their own, and respect that choice. Thank them for their honesty and stay calm when you hear things."
+        }
+      },
+      "check": {
+        "question": "You feel embarrassed about something you noticed. What helps most?",
+        "options": [
+          "Leave it out so it is not awkward",
+          "Change the story a little",
+          "Say it in plain words, or say 'This is hard to say'"
+        ],
+        "answer": 2,
+        "explain": "Doctors and nurses hear all kinds of things. Saying it plainly, or saying it is hard to say, helps them give you the right help."
+      }
+    },
+    {
+      "id": "ask-questions",
+      "core": true,
+      "variants": {
+        "simple": {
+          "title": "Asking questions",
+          "body": "You can ask questions. Try 'What does that mean?' If a word is hard, say 'Can you say that in simpler words?' There are no silly questions.",
+          "body_someone_else": "Remind the child that they can ask questions. If a word is hard, they can say, 'Can you say that in simpler words?' There are no silly questions."
+        },
+        "standard": {
+          "title": "Asking questions",
+          "body": "You are allowed to ask as many questions as you need. Helpful ones are 'What does that mean?', 'What happens next?' and 'What should I watch for?' If a word is unclear, say 'Can you say that in simpler words?' If the doctor goes too fast, say 'Could we slow down a little?' Asking does not mean you are slow. It shows you care about your own health.",
+          "body_someone_else": "Encourage the child to ask as many questions as they need. Helpful ones are 'What does that mean?', 'What happens next?' and 'What should I watch for?' If a word is unclear, they can say, 'Can you say that in simpler words?' If they hold back, ask quietly, 'Is there anything you wanted to ask?' and wait. Try not to answer for them."
+        },
+        "deep": {
+          "title": "Asking questions",
+          "body": "You are allowed to ask as many questions as you need. Keep three phrases ready: 'What does that mean?', 'Can you say that in simpler words?' and 'What happens next?' Use stop-and-ask: whenever you lose the thread, pause the doctor politely with 'Sorry, could I stop you there?' and ask. You can also ask them to draw it, show you a picture, or write it down. If the doctor goes too fast, say 'Could we slow down a little?' Asking does not mean you are slow. It shows you care about your own health, and good doctors are glad to explain.",
+          "body_someone_else": "Encourage the child to ask as many questions as they need. Help them keep three phrases ready: 'What does that mean?', 'Can you say that in simpler words?' and 'What happens next?' Teach stop-and-ask: if they lose the thread, they can say, 'Sorry, could I stop you there?' They can also ask the doctor to draw it or write it down. If they hold back, ask quietly, 'Is there anything you wanted to ask?' and wait. Try not to answer for them. Praise every question, however small, and thank the doctor for explaining."
+        }
+      },
+      "check": {
+        "question": "The doctor says a word you do not know. What can you say?",
+        "options": [
+          "Nothing, and look it up later",
+          "Can you say that in simpler words?",
+          "Nod so you look clever"
+        ],
+        "answer": 1,
+        "explain": "Asking for simpler words is a normal request, and doctors expect it. Nodding along can leave you with the wrong idea."
+      }
+    },
+    {
+      "id": "list-or-grown-up",
+      "core": false,
+      "variants": {
+        "simple": {
+          "title": "Bring a grown-up or a list",
+          "body": "Bring a grown-up you trust, or a list, or both. The list can say what you noticed and what you want to ask. It helps you remember. You can hand it to the doctor.",
+          "body_someone_else": "Help the child write or draw a short list of what they noticed and what they want to ask. Go along if they want you to. Let the child hold the list."
+        },
+        "standard": {
+          "title": "Bring a grown-up or a list",
+          "body": "Nerves can make your mind go blank, so bring help for your memory. A grown-up you trust can come along, listen and remember with you. A short written list can hold what you have noticed and what you want to ask, with the most important thing first. You can read from it or hand it over. Doctors are used to lists and are glad to see them.",
+          "body_someone_else": "Nerves can make a child's mind go blank, so offer to come along if they would like that, and agree beforehand who will speak first. Help them write or draw a short list of what they have noticed and what they want to ask. Let them hold it and read from it. Your job is to add only what they miss, and to let them speak for themselves as much as they can."
+        },
+        "deep": {
+          "title": "Bring a grown-up or a list",
+          "body": "Nerves can make your mind go blank, so bring help for your memory. Make a short list with three headings: Tell, Ask, Take. Under Tell, write what you have noticed: where, when and how much. Under Ask, write your questions, most important first. Under Take, list anything you take regularly, or pack it. Keep it to one page, and hand it over or read from it. A grown-up you trust can come along, take notes, and add things you forget. Agree beforehand that you speak first, so the visit stays yours.",
+          "body_someone_else": "Nerves can make a child's mind go blank. Help them make a short list with three headings: Tell, Ask, Take. Under Tell, write what they have noticed: where, when and how much. Under Ask, put their questions, most important first. Under Take, list anything they take regularly, or pack it. Keep it to one page and let them hold it. If you come along, agree beforehand that they speak first and you add only what is missed. Take a photo of the list in case the paper is lost, and keep it for next time."
+        }
+      },
+      "check": {
+        "question": "Why is it helpful to bring a list or a trusted grown-up?",
+        "options": [
+          "They help you remember and say everything you planned",
+          "So the doctor can skip the questions",
+          "So you do not have to speak at all"
+        ],
+        "answer": 0,
+        "explain": "A list or a trusted grown-up helps when nerves make you forget. You still speak for yourself, with a little backup."
+      }
+    },
+    {
+      "id": "say-it-back",
+      "core": false,
+      "variants": {
+        "simple": {
+          "title": "Understanding what the doctor said",
+          "body": "Say back what the doctor told you. Try 'So I should...?' If it is not quite right, the doctor can fix it. This helps you remember the plan.",
+          "body_someone_else": "Help the child say back what they heard, in their own words. If it is not quite right, the doctor can fix it. Be a second pair of ears."
+        },
+        "standard": {
+          "title": "Understanding what the doctor said",
+          "body": "Before you leave, say back what you heard in your own words: 'So the next step is..., and I should come back if...?' If you missed something, now is the time to find out. Ask for anything important in writing, and jot a few notes as you go. If you do not understand, the explaining needs another try, not you.",
+          "body_someone_else": "Before leaving, help the child say back what they heard in their own words: 'So the next step is...?' If they are unsure, you can ask the doctor, 'Could we go over that once more?' Be a second pair of ears and jot down notes, but let the child speak first. If the child does not understand, the explaining needs another try, not the child."
+        },
+        "deep": {
+          "title": "Understanding what the doctor said",
+          "body": "Before you leave, use teach-back. After the doctor explains, say, 'Let me check I have this right...' and repeat the plan in your own words: what to do, when, and when to come back. If any part is wrong or missing, the doctor can fix it there and then. Ask for anything important in writing, and write down two or three key words as you go. Also ask, 'Who do I contact if I have more questions?' If you do not understand, the explaining needs another try, not you. Stick to what the doctor said, and do not guess what any of it means.",
+          "body_someone_else": "Before leaving, help the child use teach-back. After the doctor explains, they say, 'Let me check I have this right...' and repeat the plan in their own words: what to do, when, and when to come back. If any part is wrong, the doctor can fix it there and then. Be a second pair of ears and jot notes, but let the child speak first. Ask for anything important in writing, and ask who to contact with questions. If the child does not understand, the explaining needs another try, not the child. Stay with what was said."
+        }
+      },
+      "check": {
+        "question": "What does saying it back to the doctor do?",
+        "options": [
+          "It makes the visit longer for no reason",
+          "It shows you were not listening",
+          "It lets the doctor fix anything you missed"
+        ],
+        "answer": 2,
+        "explain": "Saying it back in your own words lets the doctor correct anything you misheard. It takes a moment and saves a lot of confusion."
+      }
+    },
+    {
+      "id": "after-the-visit",
+      "core": false,
+      "variants": {
+        "simple": {
+          "title": "What to do after the visit",
+          "body": "After the visit, write down what you were told and what to do next. Put any dates in a calendar. If you have a new question, you can call the clinic.",
+          "body_someone_else": "After the visit, sit with the child and go over what was said. Write down what to do next and put dates in a calendar. Thank them for doing something hard."
+        },
+        "standard": {
+          "title": "What to do after the visit",
+          "body": "While the visit is fresh, write down what you were told, what you need to do next, and any dates, and put follow-up dates in a calendar. If you forgot to ask something or are unsure, you can call the clinic and ask. If something feels too big or scary, tell a trusted grown-up, or call your local emergency number instead of waiting for another visit.",
+          "body_someone_else": "Soon after the visit, sit with the child and go over what was said, in plain words. Write down what to do next and put any dates in a calendar. Let them add what they remember. If they forgot to ask something, offer to call the clinic together. If something feels urgent, call your local emergency number rather than waiting. Thank the child for doing something hard."
+        },
+        "deep": {
+          "title": "What to do after the visit",
+          "body": "While the visit is fresh, take two minutes to write three lines: what the doctor said, what I will do, and when I go back. Put follow-up dates in a calendar, and keep the note with your list for next time. If you forgot to ask something, or you are unsure, call the clinic and ask. A few days later, check in with yourself: did I do what we agreed, and do I have new questions? If something feels too big or scary, tell a trusted grown-up, or call your local emergency number instead of waiting for another visit.",
+          "body_someone_else": "Soon after the visit, while it is fresh, sit with the child and write three lines together: what the doctor said, what we will do, and when we go back. Put follow-up dates in a calendar, and keep the note with the list for next time. If they forgot to ask something, offer to call the clinic together. A few days later, check in: did we do what we agreed, and are there new questions? Thank the child for doing something hard. If something feels urgent, call your local emergency number rather than waiting for another visit."
+        }
+      },
+      "check": {
+        "question": "What is a good thing to do after a visit?",
+        "options": [
+          "Forget the plan until next time",
+          "Write down what was said and what to do next",
+          "Keep any leftover questions secret"
+        ],
+        "answer": 1,
+        "explain": "Notes made while the visit is fresh are easy to rely on later, and a quick call to the clinic can clear up any questions."
+      }
+    }
+  ]
+}

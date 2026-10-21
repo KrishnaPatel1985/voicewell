@@ -1,0 +1,258 @@
+{
+  "topic": "appointment",
+  "title": "Preparing for a doctor's appointment",
+  "summary": "Learn how to describe what you have noticed, bring a list, ask questions, and check that you understood.",
+  "icon": "calendar",
+  "order": 3,
+  "practice_goal": {
+    "myself": "The learner has come to see you for a short appointment. They want to practise describing what they have noticed, asking their questions, and checking that they understood. You only listen and ask questions.",
+    "someone-else": "The learner is your son or daughter. They want to practise helping you get ready for your own doctor's appointment: asking what you have noticed, making a short list together, and offering to come along."
+  },
+  "persona_rules": {
+    "myself": [
+      {
+        "persona": "doctor"
+      }
+    ],
+    "someone-else": [
+      {
+        "persona": "older-parent"
+      }
+    ]
+  },
+  "key_questions": {
+    "myself": [
+      "Could you explain that in simpler words?",
+      "What should I watch for, and when should I come back?",
+      "What is the next step, and who will contact whom?",
+      "Is there anything I should write down or keep track of before the next visit?",
+      "Could I say that back to check I have understood?"
+    ],
+    "someone-else": [
+      "What have you noticed lately, and when did it start?",
+      "What are the main things you want to ask the doctor?",
+      "Would you like me to come along and write things down?",
+      "Is there anything you have been worried about mentioning?",
+      "Shall we make a short list together?"
+    ]
+  },
+  "concepts": [
+    {
+      "id": "why-prepare",
+      "core": true,
+      "variants": {
+        "simple": {
+          "title": "Why prepare",
+          "body": "Doctor visits can be short. A little planning helps you say what matters. Think about what you want to say and what you want to ask before you go. It is your visit.",
+          "body_someone_else": "Doctor visits can be short. A little planning helps them say what matters. Ask what they want to say and what they want to ask before they go. It is their visit."
+        },
+        "standard": {
+          "title": "Why prepare",
+          "body": "Appointments are often short, sometimes only about ten minutes, and it is easy to forget things once you are in the room. A little planning helps you say what matters and leave with answers. Think about why you are going, what you have noticed, and what you want to ask. Preparing does not mean you must have it all worked out. It just means you are ready to begin.",
+          "body_someone_else": "Appointments are often short, sometimes only about ten minutes, and it is easy to forget things once in the room, especially when nerves kick in. A little planning helps your relative say what matters and leave with answers. Help them think about why they are going, what they have noticed, and what they want to ask. Let them lead. Your role is to support, not to take over."
+        },
+        "deep": {
+          "title": "Why prepare",
+          "body": "Appointments are often short, sometimes only about ten minutes, and it is easy to forget things once you are in the room. A little planning helps you say what matters and leave with answers. Try the 'three things' rule: before you go, choose the three most important things to cover, and say the most important one first. If time runs short, you will still have covered what matters most. If something feels like an emergency, do not wait for an appointment. Call your local emergency number. Even five minutes of thinking ahead makes the visit feel calmer.",
+          "body_someone_else": "Appointments are often short, sometimes only about ten minutes, and it is easy to forget things once in the room, especially when nerves kick in. Try the 'three things' rule together. A day or two before, sit down and ask, 'If you could only cover three things, what would they be?' Write them in their words, most important first. Then let them lead in the room. If something feels like an emergency, call the local emergency number instead of waiting. Even five minutes of thinking ahead can make the visit feel calmer for both of you."
+        }
+      },
+      "check": {
+        "question": "Why is it helpful to plan before a short appointment?",
+        "options": [
+          "So the doctor does not need to ask you anything",
+          "So you can say what matters most and remember your questions",
+          "So the visit lasts much longer"
+        ],
+        "answer": 1,
+        "explain": "Visits are often short, and nerves can make us forget. A little planning helps you cover what matters most."
+      }
+    },
+    {
+      "id": "describe-what-you-noticed",
+      "core": true,
+      "variants": {
+        "simple": {
+          "title": "Describe what you noticed",
+          "body": "Tell the doctor what you have noticed. Say when it started. Say how often it happens. Say what makes it better or worse. Say how it changes your day.",
+          "body_someone_else": "Help them tell the doctor what they have noticed. When did it start? How often? What makes it better or worse? How does it change their day?"
+        },
+        "standard": {
+          "title": "Describe what you noticed",
+          "body": "The most helpful thing you can give a doctor is a clear picture of what you have noticed. Say when it started, how often it happens, what makes it better or worse, and how it affects your daily life, such as sleep, work, or things you enjoy. Use your own everyday words. You do not need medical terms, and you do not need to work out the cause. That part is the doctor's job.",
+          "body_someone_else": "The most helpful thing anyone can give a doctor is a clear picture of what they have noticed. Gentle questions can help them find it: When did it start? How often does it happen? What makes it better or worse? How does it affect your day? Use their words, not yours, and do not guess the cause. That part is the doctor's job."
+        },
+        "deep": {
+          "title": "Describe what you noticed",
+          "body": "The most helpful thing you can give a doctor is a clear picture of what you have noticed. Try the four-line note. Write one line for each: When did it start? How often does it happen? What makes it better or worse? What does it stop me doing? Then practise saying it aloud in one breath: 'It started about..., it happens..., it is worse when..., and it stops me from...' You do not need to work out the cause. That part is the doctor's job. Bring your note and hand it over if the words will not come.",
+          "body_someone_else": "The most helpful thing anyone can give a doctor is a clear picture of what they have noticed. Try the four-line note together. Sit beside them with paper and ask, one at a time: When did it start? How often does it happen? What makes it better or worse? What does it stop you doing? Write their answers in their own words, then read them back to check. Do not guess the cause. That part is the doctor's job. Bring the note along in case the words do not come in the room."
+        }
+      },
+      "check": {
+        "question": "Which is the most helpful way to describe something you have noticed?",
+        "options": [
+          "Say when it started, how often it happens, and how it affects your day",
+          "Give your best guess about what is causing it",
+          "Say it is probably nothing and move on"
+        ],
+        "answer": 0,
+        "explain": "Timing, how often, what changes it, and the effect on daily life give the doctor a clear picture. Working out the cause is the doctor's job, not yours."
+      }
+    },
+    {
+      "id": "bring-a-list",
+      "core": true,
+      "variants": {
+        "simple": {
+          "title": "Bring a list",
+          "body": "Write a list before you go. Put your top question first. Add what you want to say. Bring what you usually take, and a pen.",
+          "body_someone_else": "Help them write a list before the visit. Put their top question first. Add what they want to say. Remind them to bring what they usually take, and a pen."
+        },
+        "standard": {
+          "title": "Bring a list",
+          "body": "A short list keeps nerves from wiping your mind. Write your top three questions, most important first, and a few notes on what you have noticed. Add anything you take regularly, including vitamins and creams, or bring the packets along. Keep it to one page. You can hand it over or read from it. Doctors are used to lists, and most are glad to see one.",
+          "body_someone_else": "A short list keeps nerves from wiping the mind. Offer to write it together: their top three questions, a few notes on what they have noticed, and anything they take regularly, including vitamins and creams. One page is plenty. Let them hold it, and remind them it is fine to read from it in the room."
+        },
+        "deep": {
+          "title": "Bring a list",
+          "body": "A short list keeps nerves from wiping your mind. Try a two-column page headed 'Tell' and 'Ask'. Under 'Tell', put what you have noticed and anything you take regularly, including vitamins and creams. Under 'Ask', put your questions, most important first. Put a star by the one thing you do not want to leave without. Keep it to one page, and hand it over at the start or read from it. Doctors are used to lists and are glad to see one. Take a pen so you can add answers as you go.",
+          "body_someone_else": "A short list keeps nerves from wiping the mind. Try a two-column page together, headed 'Tell' and 'Ask'. Under 'Tell', note what they have noticed and anything they take regularly, including vitamins and creams. Under 'Ask', write their questions, most important first. Let them put a star by the one thing they do not want to leave without. Keep it to one page, and remind them it is fine to read from it in the room. Pack a pen so they can add answers as they go, and take a photo of the list in case the paper is lost."
+        }
+      },
+      "check": {
+        "question": "What is a good way to organise a list for a short appointment?",
+        "options": [
+          "Write everything in the order you happened to think of it",
+          "Try to memorise it instead of writing it down",
+          "Put the most important question first and keep it to one page"
+        ],
+        "answer": 2,
+        "explain": "Most important first means it gets covered even if time runs short. One page is easy to hand over or read from."
+      }
+    },
+    {
+      "id": "start-clearly",
+      "core": true,
+      "variants": {
+        "simple": {
+          "title": "Starting the conversation",
+          "body": "Start with the main reason you came. Say it in your own words, like 'I came because...'. You do not need big words. The doctor will ask you more.",
+          "body_someone_else": "Suggest they start with the main reason they came, in their own words. They do not need big words. The doctor will ask more. You can practise the first sentence together."
+        },
+        "standard": {
+          "title": "Starting the conversation",
+          "body": "When the visit begins, say the main reason you came first, in a sentence or two. For example: 'I came because something has been bothering me for a few weeks, and I would like to talk about it.' Then add details as the doctor asks. Starting with the most important thing means it will not be missed if time runs short. Plain words are fine, and so is saying 'I am a bit nervous.'",
+          "body_someone_else": "Help them plan how to begin. Suggest they say the main reason they came first, in a sentence or two, such as 'I came because something has been bothering me for a few weeks.' The details can follow as the doctor asks. Plain words are fine, and so is saying 'I am a bit nervous.' Practise the first sentence together once, then let them take it from there."
+        },
+        "deep": {
+          "title": "Starting the conversation",
+          "body": "When the visit begins, say the main reason you came first, in a sentence or two. Try 'headline first': give the headline, then the detail. For example: 'I came because something has been bothering me for a few weeks. It began around... and it happens...' Take one slow breath before you speak. If you feel nervous, say so: 'I am a bit nervous, so I wrote this down.' Doctors understand, and it usually helps them slow down too. Practise the first sentence aloud once or twice before you go, even in front of a mirror, so it feels familiar.",
+          "body_someone_else": "Help them plan how to begin. Try 'headline first': they give the headline, then the detail. For example: 'I came because something has been bothering me for a few weeks. It began around... and it happens...' Practise the first sentence once or twice at home, kindly and without pressure. Remind them that they can say, 'I am a bit nervous, so I wrote this down.' Doctors understand, and it helps them slow down too. If they freeze, a quiet 'Shall I help you start?' is enough. Then step back and let them speak."
+        }
+      },
+      "check": {
+        "question": "At the start of the visit, which approach helps most?",
+        "options": [
+          "Wait until the end to mention your biggest worry",
+          "Say the main reason you came first, in your own words",
+          "Use medical words so you sound prepared"
+        ],
+        "answer": 1,
+        "explain": "Opening with the main reason means it will not be missed. Your own plain words are exactly what the doctor wants to hear."
+      }
+    },
+    {
+      "id": "ask-questions",
+      "core": false,
+      "variants": {
+        "simple": {
+          "title": "Asking questions",
+          "body": "You can ask as many questions as you need. 'What does that mean?' is a good one. If a word is hard, say 'Can you say that in simpler words?' There are no silly questions.",
+          "body_someone_else": "Remind them they can ask as many questions as they need. If a word is hard, they can say 'Can you say that in simpler words?' There are no silly questions."
+        },
+        "standard": {
+          "title": "Asking questions",
+          "body": "You are allowed to ask as many questions as you need. Helpful ones include 'What does that mean?', 'What is the next step?', and 'What should I watch for?' If a word is unclear, say 'Can you say that in simpler words?' If the doctor goes too fast, say 'Could we slow down a little?' Asking shows you care about your own health. It does not mean you are slow.",
+          "body_someone_else": "Encourage them to ask as many questions as they need. Helpful ones include 'What does that mean?', 'What is the next step?', and 'What should I watch for?' They can also say 'Can you say that in simpler words?' If they hold back, you might ask, 'Is there anything you wanted to ask?' and then wait. Try not to speak for them."
+        },
+        "deep": {
+          "title": "Asking questions",
+          "body": "You are allowed to ask as many questions as you need. Try 'ask, pause, write': ask one question, pause and listen to the whole answer, then jot down a word or two. Keep three go-to phrases at the top of your list: 'What does that mean?', 'Can you say that in simpler words?', and 'What happens next?' If the doctor goes too fast, say 'Could we slow down a little?' Asking shows you care about your own health. It does not mean you are slow. Write the answers beside each question so you can read them later.",
+          "body_someone_else": "Encourage them to ask as many questions as they need. Suggest 'ask, pause, write': ask one question, pause for the whole answer, then jot down a word or two. Keep three go-to phrases at the top of their list: 'What does that mean?', 'Can you say that in simpler words?', and 'What happens next?' If they hold back, you might quietly ask, 'Is there anything you wanted to ask?' and then wait. Try not to speak for them. Afterwards, read the answers back together. Praise them for asking, however small the question."
+        }
+      },
+      "check": {
+        "question": "The doctor uses a word you do not know. What is a good response?",
+        "options": [
+          "Nod along and look it up later",
+          "Stay quiet so you do not seem silly",
+          "Ask, 'Can you say that in simpler words?'"
+        ],
+        "answer": 2,
+        "explain": "Asking for simpler words is a normal request, and doctors expect it. Nodding along can leave you with the wrong idea."
+      }
+    },
+    {
+      "id": "check-understanding",
+      "core": false,
+      "variants": {
+        "simple": {
+          "title": "Checking you understood",
+          "body": "Before you leave, say back what you heard. Try 'So the next step is...?' If it is not quite right, the doctor can fix it. Ask for anything important on paper.",
+          "body_someone_else": "Be a second pair of ears. Jot a few notes, but let them speak first. If they seem unsure, you can ask, 'Could we go over that once more?'"
+        },
+        "standard": {
+          "title": "Checking you understood",
+          "body": "Before you leave, check you understood by saying it back in your own words: 'So the next step is..., and I should come back if...?' If you missed something, this is the moment to find out. Ask for anything important in writing, jot a few notes while you talk, and bring someone you trust if you would like a second pair of ears.",
+          "body_someone_else": "You can be a useful second pair of ears. Jot down a few notes, but let them do the talking. If they seem unsure, you can gently ask, 'Could we go over that once more?' Before you leave, help them say back the next steps in their own words. Ask whether anything important can be given in writing."
+        },
+        "deep": {
+          "title": "Checking you understood",
+          "body": "Before you leave, check you understood. Try 'teach-back': after the doctor explains, say, 'Let me check I have this right...' and repeat it in your own words. Then ask, 'What should I watch for, and who do I contact if I have more questions?' If you missed something, this is the moment to find out. Ask for anything important in writing, and bring someone you trust if you would like a second pair of ears. Writing down two or three key words as you go makes this much easier, and you can ask the doctor to pause while you do.",
+          "body_someone_else": "You can be a useful second pair of ears. Suggest 'teach-back' beforehand: after the doctor explains, they say, 'Let me check I have this right...' and repeat it in their own words. Jot down a few notes, but let them do the talking. If they seem unsure, gently ask, 'Could we go over that once more?' Before you leave, help them ask, 'Who do I contact if I have more questions?' Afterwards, go over the notes together and fill any gaps while the visit is fresh. Offer to call the clinic if something is still unclear."
+        }
+      },
+      "check": {
+        "question": "Before leaving the appointment, what is a good way to check you understood?",
+        "options": [
+          "Say back what you heard and ask if you have it right",
+          "Leave quickly so you do not take up time",
+          "Wait for a phone call to find out what was said"
+        ],
+        "answer": 0,
+        "explain": "Saying it back lets the doctor correct anything you have missed. It takes only a moment and can save a lot of confusion."
+      }
+    },
+    {
+      "id": "after-the-visit",
+      "core": false,
+      "variants": {
+        "simple": {
+          "title": "After the visit",
+          "body": "Soon after, write down what you were told and what to do next. Put any dates in your calendar. If you forgot to ask something, you can call the clinic.",
+          "body_someone_else": "Offer to sit with them after the visit and go over what was said. Help write down what to do next. Put any dates in a calendar. Let them choose who to tell."
+        },
+        "standard": {
+          "title": "After the visit",
+          "body": "Soon after the visit, while it is fresh, write down what you were told, what you need to do next, and any dates. Put follow-up dates in a calendar. If you forgot to ask something or are unsure, you can call the clinic and ask. If something feels like an emergency, do not wait for another appointment. Call your local emergency number straight away.",
+          "body_someone_else": "Offer to sit with them after the visit and go through what was said. Help write down the next steps and put any dates in a calendar. Let them decide who else to tell. If they forgot to ask something, offer to help them call the clinic. If something feels like an emergency, call the local emergency number straight away."
+        },
+        "deep": {
+          "title": "After the visit",
+          "body": "Soon after the visit, while it is fresh, take two minutes to write three lines: what the doctor said, what I will do, and when I go back. Put follow-up dates in a calendar and keep the note with your list for next time. If you forgot to ask something or are unsure, you can call the clinic and ask. If something feels like an emergency, do not wait for another appointment. Call your local emergency number straight away. Keep the note in one place, so you can find it when you need it.",
+          "body_someone_else": "Offer to sit with them soon after the visit, while it is fresh, and help them write three lines: what the doctor said, what they will do, and when they go back. Put follow-up dates in a calendar and keep the note with their list for next time. Let them decide who else to tell. If they forgot to ask something, offer to help them call the clinic. If something feels like an emergency, call the local emergency number straight away. Keep the notes in one place so they are easy to find. Check in again in a few days."
+        }
+      },
+      "check": {
+        "question": "What is a useful thing to do soon after a visit?",
+        "options": [
+          "Wait until the next visit to think about it",
+          "Write down what you were told, what to do next, and any dates",
+          "Throw away your list"
+        ],
+        "answer": 1,
+        "explain": "Notes made while the visit is fresh are easy to rely on later. Keep them with your list for next time."
+      }
+    }
+  ]
+}

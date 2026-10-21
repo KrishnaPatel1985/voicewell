@@ -1,0 +1,261 @@
+{
+  "topic": "hard-day",
+  "title": "When I have a hard day",
+  "summary": "Know that hard days happen, tell worry from upset from frustration, and find words to share a hard day with someone you trust.",
+  "icon": "spark",
+  "order": 5,
+  "practice_goal": {
+    "myself": "The learner practises telling their parent or a trusted adult that they had a hard day, saying how they feel, and asking for what would help. Listen warmly and ask gentle questions.",
+    "someone-else": "The learner is a parent, carer or teacher practising how to help a child or teen talk about a hard day, by listening first and not rushing to fix it."
+  },
+  "persona_rules": {
+    "myself": [
+      {
+        "maxAge": 17,
+        "persona": "parent"
+      },
+      {
+        "persona": "trusted-adult"
+      }
+    ],
+    "someone-else": [
+      {
+        "persona": "guarded-teen"
+      }
+    ]
+  },
+  "key_questions": {
+    "myself": [
+      "Can I tell you about my day?",
+      "What can I do when I feel like this at school?",
+      "Can we talk about it later if you are busy?",
+      "Who else could I talk to about this?"
+    ],
+    "someone-else": [
+      "What was the hardest part of your day?",
+      "Was it more worry, upset or frustration?",
+      "What would help right now: a break, a snack, or me listening?",
+      "Who would you like to tell about it?",
+      "Can we check in again tomorrow?"
+    ]
+  },
+  "concepts": [
+    {
+      "id": "hard-days-happen",
+      "core": true,
+      "variants": {
+        "simple": {
+          "title": "Hard days happen to everyone",
+          "body": "Everyone has hard days. Grown-ups too. A hard day is not your fault, and it does not mean you are bad. Tomorrow is a new day.",
+          "body_someone_else": "Everyone has hard days, including grown-ups. A child's hard day is not their fault or a sign of bad behaviour. Tomorrow is a fresh start."
+        },
+        "standard": {
+          "title": "Hard days happen to everyone",
+          "body": "Hard days happen to everyone: children, teenagers and adults. Maybe a friend was unkind, a test went badly, or nothing went to plan. A hard day does not mean you did something bad, and it does not mean tomorrow will be the same. Feelings from a hard day are normal. You can get through it, and you do not have to do it alone.",
+          "body_someone_else": "Hard days happen to everyone, including the grown-ups children look up to. A child might come home after a falling out with a friend, a difficult lesson, or a day when nothing went to plan. It helps to say so: 'Everyone has hard days.' A hard day is not a sign of bad behaviour or weakness. Responding with warmth, rather than a lecture or a quick fix, tells a child they are safe to be honest about it."
+        },
+        "deep": {
+          "title": "Hard days happen to everyone",
+          "body": "Hard days happen to everyone: children, teens and adults. A friend was unkind, a test went badly, or nothing went to plan. A hard day does not mean you did something bad, and it does not mean tomorrow will be the same. Try a two-line note at bedtime: 'Today was hard because ___. One small thing that went okay was ___.' It is not about pretending the day was good. It reminds your mind that a hard day is one day, not the whole story, and it gives you something to say to someone you trust.",
+          "body_someone_else": "Hard days happen to everyone, including the grown-ups children look up to. A child may come home after a falling out with a friend, a difficult lesson, or a day when nothing went to plan. Say it plainly: 'Everyone has hard days. Even I do.' Sharing a small, honest example of your own can show it is safe to talk. Try the bedtime question 'What was the hardest bit, and what was one okay bit?' It does not erase the hard day. It shows them a hard day is one day, not the whole story. Respond with warmth, not a lecture or a quick fix."
+        }
+      },
+      "check": {
+        "question": "After a hard day, what is true?",
+        "options": [
+          "It means you did something bad",
+          "It means tomorrow will be just as hard",
+          "Hard days happen to everyone, and they pass"
+        ],
+        "answer": 2,
+        "explain": "Hard days are part of life for children and grown-ups alike. They do not say anything bad about you, and they pass. Telling someone you trust can make the day feel lighter."
+      }
+    },
+    {
+      "id": "worried-upset-frustrated",
+      "core": true,
+      "variants": {
+        "simple": {
+          "title": "Worried, upset and frustrated",
+          "body": "Worried feels like 'what if?' Upset feels sad and heavy. Frustrated feels like 'this will not work!' Each feeling is different. Each one needs something different.",
+          "body_someone_else": "Worried is 'what if?' Upset is sad and heavy. Frustrated is 'this is not working!' Naming which one it is helps you know what the child needs."
+        },
+        "standard": {
+          "title": "Worried, upset and frustrated",
+          "body": "Worried, upset and frustrated are different feelings. Worry is a 'what if?' feeling about something ahead, and it often sits in the tummy. Upset is more about something that already happened, and feels sad or heavy. Frustration comes when something will not work or someone will not listen, and it can feel hot and tense. Knowing which one you have helps you ask for the right help.",
+          "body_someone_else": "Worried, upset and frustrated are different, and children often use one word for all of them. Worry looks ahead ('what if?'), upset looks back at something that happened, and frustration comes when something will not work. A worried child may need reassurance and a plan, an upset child may need comfort, and a frustrated child may need a break or a hand. Gently guess, 'Is it more worry, upset or frustration?' and let them correct you."
+        },
+        "deep": {
+          "title": "Worried, upset and frustrated",
+          "body": "Worried, upset and frustrated are different feelings, and each needs something different. Worry looks ahead: 'what if?' It often sits in the tummy and needs a plan or reassurance. Upset looks back at something that already happened. It feels heavy and needs comfort. Frustration comes when something will not work or no one listens. It feels hot and tense and needs a pause or a helping hand. Try asking yourself: 'Is this about what might happen, what already happened, or something that is stuck?' Your answer points to what to ask for.",
+          "body_someone_else": "Worried, upset and frustrated are different feelings, and children often use one word, such as 'angry' or 'fine', for all of them. Worry looks ahead ('what if?') and needs a plan or reassurance. Upset looks back at something that happened and needs comfort. Frustration comes when something will not work or no one listens, and it needs a pause or a hand. Try a gentle guess: 'Does it feel more like worry about what's next, sadness about what happened, or being stuck?' Let them correct you. Getting the label close, and not perfect, shows you are paying attention."
+        }
+      },
+      "check": {
+        "question": "A child says, 'This puzzle will not work and I keep trying!' Which feeling is it most like?",
+        "options": [
+          "Frustrated",
+          "Worried about tomorrow",
+          "Upset about yesterday"
+        ],
+        "answer": 0,
+        "explain": "Feeling stuck on something that will not work is frustration. A pause, a drink of water or a helping hand can ease it. Worry looks ahead, and upset looks back."
+      }
+    },
+    {
+      "id": "what-helps-in-the-moment",
+      "core": true,
+      "variants": {
+        "simple": {
+          "title": "What helps in the moment",
+          "body": "Try one thing. Breathe in slowly and out slowly. Drink some water. Move your body. Sit in a quiet corner. Pick the one that feels right for you.",
+          "body_someone_else": "Offer one thing at a time: slow breaths, water, moving, or a quiet corner. Let the child pick. Stay close and calm."
+        },
+        "standard": {
+          "title": "What helps in the moment",
+          "body": "When a hard feeling is big, try one small thing. Breathe in slowly, then out for longer. Sip some water. Move your body by stretching, walking or shaking out your arms. Or go to a quiet corner with a cushion or a book. Different things work on different days, so try one and see. You can also tell someone, which is often the best step.",
+          "body_someone_else": "When a hard feeling is big, children usually cannot think their way out of it, but their body can help. Offer a few simple options: slow breaths, a drink of water, moving around, or a quiet corner with a cushion. Let them choose, and do it alongside them. Different things work on different days, so any choice is fine. Keep your voice low and slow, and talk about it once they feel steadier."
+        },
+        "deep": {
+          "title": "What helps in the moment",
+          "body": "When a hard feeling is big, small body steps help most. Try slow breathing: in for four counts, out for six, for about a minute. The longer breath out helps your body settle. Sip cold water. Move: stretch, walk, or press your hands against a wall for ten seconds. Or find a quiet corner and sit with a cushion or a book. Pick one, and give it a few minutes before deciding whether it worked. Different things work on different days. These steps ease the moment. They do not replace telling someone.",
+          "body_someone_else": "When a hard feeling is big, children often cannot think their way out of it, but their body can help. Offer a few simple options and let them choose: slow breaths (in for four, out for six), a cold drink of water, moving, or a quiet corner with a cushion. Do it alongside them, with a low, slow voice, because they borrow your calm. Give each option a few minutes before judging it. Talk about what happened later, once they are steadier. These steps ease the moment. They do not replace listening afterwards."
+        }
+      },
+      "check": {
+        "question": "A hard feeling is very big right now. Which is a good thing to try first?",
+        "options": [
+          "Keep going and say nothing",
+          "Slow breaths, a sip of water, or a quiet corner",
+          "Stay up late to think about it"
+        ],
+        "answer": 1,
+        "explain": "Small body steps like slow breaths, water, moving or a quiet corner help a big feeling settle. They ease the moment, and telling a trusted grown-up helps too."
+      }
+    },
+    {
+      "id": "not-keeping-it-inside",
+      "core": true,
+      "variants": {
+        "simple": {
+          "title": "Not keeping it all inside",
+          "body": "Big feelings get heavy when you carry them alone. Telling someone shares the weight. You can say it, draw it or write it. You do not have to hold it all.",
+          "body_someone_else": "Big feelings get heavy to carry alone. Children can say it, draw it or write it. Let them know telling you is always welcome."
+        },
+        "standard": {
+          "title": "Not keeping it all inside",
+          "body": "Carrying a hard day alone can make it feel heavier. Feelings kept inside often grow, come out as a bad mood, or show up as tummy aches and poor sleep. Sharing them with someone you trust usually makes them lighter. You do not have to say it perfectly. You can say it, draw it, write it down or send a message. Letting it out is a healthy habit.",
+          "body_someone_else": "Children who keep a hard day inside may seem quiet, grumpy or tired, or complain of tummy aches. They often hold back because they do not want to worry you or are not sure how to say it. Let them know that telling you is welcome, whatever size the problem. Offer other ways too: drawing, writing, or talking while you do something together. You do not need perfect words from them."
+        },
+        "deep": {
+          "title": "Not keeping it all inside",
+          "body": "Carrying a hard day alone can make it feel heavier. Feelings kept inside often grow, leak out as a short temper, or show up as tummy aches and poor sleep. Sharing with someone you trust usually makes them lighter. You do not need perfect words. Try the 'one sentence' rule: say just one true sentence, such as 'I had a rough day and I don't know why.' That is enough to open the door. You can also draw it, write it or send a message first. Letting a feeling out is a healthy habit, not a burden to others.",
+          "body_someone_else": "Children who keep a hard day inside may seem quiet, snappy or tired, or may complain of tummy aches. They often hold back because they do not want to worry you or do not know how to start. Tell them plainly that talking to you is welcome, whatever the size of the problem. Offer side-by-side ways to share, such as drawing, walking or doing a task together, where eye contact is not needed. Invite just one sentence, and accept it with thanks. You do not need to fix it that day, and you do not need perfect words from them."
+        }
+      },
+      "check": {
+        "question": "What can happen when you keep a hard day all inside?",
+        "options": [
+          "It always disappears by itself",
+          "It makes you braver",
+          "It can feel heavier and show up as a bad mood or a sore tummy"
+        ],
+        "answer": 2,
+        "explain": "Feelings kept inside often feel heavier. Sharing them with someone you trust, in any way that works for you, usually helps them feel lighter."
+      }
+    },
+    {
+      "id": "choosing-who-to-tell",
+      "core": false,
+      "variants": {
+        "simple": {
+          "title": "Choosing who to tell",
+          "body": "Choose someone who listens and is kind. It could be a parent, a carer, a teacher or a grown-up at school. Pick the one you feel safest with. You can tell more than one.",
+          "body_someone_else": "Children choose better when they have options. Help them name two or three safe grown-ups. Respect their pick, even if it is not you."
+        },
+        "standard": {
+          "title": "Choosing who to tell",
+          "body": "Think about who listens well, stays calm and is kind. It might be a parent, carer, grandparent, teacher, school nurse or coach. Pick someone you feel safe with and who is easy to reach. Different people suit different feelings, so you can tell more than one person. If the first person is not the right fit, try someone else. Asking for help is a good thing.",
+          "body_someone_else": "Children choose better when they have a short list. Help them name two or three safe grown-ups, such as a parent, relative, teacher or school staff member, and think about what each is good at. Respect their choice, even when it is not you. Telling a teacher or relative is still a good outcome. Make it easy by saying, 'If you ever want to tell someone and not me, that's fine.'"
+        },
+        "deep": {
+          "title": "Choosing who to tell",
+          "body": "Think about who listens well, stays calm and is kind. It might be a parent, carer, grandparent, teacher, school nurse or coach. Try the three-question test: Do I feel safe with them? Do they listen without rushing? Can I reach them soon? If yes, they are a good choice. You can choose different people for different things, and you can tell more than one. If the first person does not help, try another, because the right listener is worth finding. If something feels too big or scary, tell a trusted grown-up straight away.",
+          "body_someone_else": "Children choose better when they have a short list. Help them name two or three safe grown-ups, such as a parent, relative, teacher, school nurse or coach, and talk about what each person is good at. A simple test is: Do they feel safe with this person? Does that person listen without rushing? Can they reach them soon? Respect their choice, even when it is not you. A trusted teacher or relative is still a good outcome. Say, 'If you ever want to tell someone other than me, that's fine.' If a child shares something that feels big or frightening, stay calm and involve the right adults, or call your local emergency number if there is danger."
+        }
+      },
+      "check": {
+        "question": "Which is a good person to tell about a hard day?",
+        "options": [
+          "Someone who listens, stays kind and is easy to reach",
+          "Anyone who will laugh about it",
+          "Nobody, because you have to manage alone"
+        ],
+        "answer": 0,
+        "explain": "A good listener is kind, calm and easy to reach. You can tell more than one person, and asking for help is a strong thing to do."
+      }
+    },
+    {
+      "id": "how-to-start",
+      "core": false,
+      "variants": {
+        "simple": {
+          "title": "How to start the conversation",
+          "body": "Starting is the hardest part. Try, 'Can I tell you something?' Or, 'I had a hard day.' Or, 'I feel ___ and I need help.' Pick one and say it.",
+          "body_someone_else": "Give children words to start with. Try: 'Can I tell you something?' or 'I had a hard day.' Say them together first. Starting is the hardest part."
+        },
+        "standard": {
+          "title": "How to start the conversation",
+          "body": "The first sentence is the hardest, so keep it short. You could say, 'Can I tell you something?' or 'I had a hard day and I want to talk.' Or try, 'I feel ___ and I need ___.' Pick a calm moment, like in the car or at dinner. You do not need to explain everything at once. Just start, and the rest often follows.",
+          "body_someone_else": "The first sentence is the hardest for a child, so give them a few to borrow: 'Can I tell you something?', 'I had a hard day,' or 'I feel ___ and I need ___.' Practise them at a calm time, even with a toy or in a game. Choose relaxed moments for talking, like car rides or bedtime. When they start, stop what you are doing, listen, and say 'Thank you for telling me.'"
+        },
+        "deep": {
+          "title": "How to start the conversation",
+          "body": "The first sentence is the hardest, so keep it short and have a few ready. Try: 'Can I tell you something?' or 'I had a hard day and I want to talk.' Or use the pattern 'I feel ___ because ___, and I need ___.' For example, 'I feel upset because I fell out with my friend, and I need you to listen.' Say it out loud once so the words feel familiar. Pick a calm moment, like a walk or a car ride. You do not need to explain everything at once. Start with one sentence and see what comes next.",
+          "body_someone_else": "The first sentence is the hardest for a child, so give them a few to borrow: 'Can I tell you something?', 'I had a hard day,' or 'I feel ___ because ___, and I need ___.' Practise at a calm time, using a toy, a game or your own example. Choose relaxed moments for real talks, such as car rides, walks or bedtime. When they begin, put your phone away, face them or sit beside them, and say 'Thank you for telling me.' Then reflect what you heard before offering any advice. If they use only a few words, let that be enough for today."
+        }
+      },
+      "check": {
+        "question": "Which is a good way to start telling someone about a hard day?",
+        "options": [
+          "Wait until they ask the perfect question",
+          "'Can I tell you something? I had a hard day.'",
+          "Say nothing and hope they notice"
+        ],
+        "answer": 1,
+        "explain": "A short, clear first sentence is enough. Grown-ups cannot read minds, and once you start, the rest of the talk often comes more easily."
+      }
+    },
+    {
+      "id": "busy-person-try-again",
+      "core": false,
+      "variants": {
+        "simple": {
+          "title": "If they are busy, try again",
+          "body": "Sometimes a grown-up is busy. That is okay. It does not mean they do not care. Say, 'Can we talk later?' Then ask again. Or tell someone else.",
+          "body_someone_else": "If you are busy, say so kindly and give a time: 'I want to hear this. Can we talk after dinner?' Then keep your promise."
+        },
+        "standard": {
+          "title": "If they are busy, try again",
+          "body": "Sometimes the person you want to talk to is busy or distracted. That does not mean they do not care. You can say, 'This matters to me. When is a good time to talk?' If they say later, ask for a time. If they forget or it does not go well, try again or choose another trusted person. Trying again is not nagging. It shows how much it matters.",
+          "body_someone_else": "When a child chooses a busy moment, they have often waited a long time to speak. If you cannot stop right now, say so kindly and give a real time: 'I want to hear this. Can we talk after dinner?' Then keep that promise. If you missed the moment, go back and say, 'I'm sorry I was busy. I'd love to hear it now.' Making time shows a child their feelings count."
+        },
+        "deep": {
+          "title": "If they are busy, try again",
+          "body": "Sometimes the person you want to talk to is busy or distracted. That does not mean they do not care. Try: 'This matters to me. When would be a good time?' If they give a time, remind them kindly. If they forget, try again: 'We were going to talk earlier. Is now okay?' If it still does not work, choose another trusted person, or leave a written note. Trying again is not nagging. It shows how much it matters, and finding someone with time is worth it. If something feels too big or scary, say so clearly: 'I need help now.'",
+          "body_someone_else": "When a child picks a busy moment, they have often been waiting a long time to speak. If you cannot stop right now, say so kindly and give a real time: 'I want to hear this properly. Can we talk after dinner?' Then keep that promise and note it somewhere you will see. If you missed the moment, go back to it: 'I'm sorry I was busy earlier. I'd love to hear it now.' Notice if they try several times, because persistence means it matters. Making time shows a child their feelings count. If they say they need help now, stop what you are doing."
+        }
+      },
+      "check": {
+        "question": "A grown-up says they are busy when you try to talk. What can you do?",
+        "options": [
+          "Decide they do not care and never ask again",
+          "Ask when a good time would be, and try again or tell another trusted person",
+          "Shout until they stop what they are doing"
+        ],
+        "answer": 1,
+        "explain": "A busy moment is not a no. Asking for a time, trying again, or choosing another trusted person all keep the door open. If something feels too big or scary, say you need help now."
+      }
+    }
+  ]
+}

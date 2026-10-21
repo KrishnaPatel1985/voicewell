@@ -1,0 +1,258 @@
+{
+  "topic": "menopause",
+  "title": "Understanding menopause",
+  "summary": "Learn what menopause is, what people commonly notice, and how to talk about it with family and a doctor.",
+  "icon": "heart",
+  "order": 2,
+  "practice_goal": {
+    "myself": "The learner has come to see you for a short appointment. They want to practise describing, in their own words, changes they have noticed around menopause, and asking their questions. You only listen and ask questions.",
+    "someone-else": "The learner is your son or daughter. They want to practise a kind, curious chat with you about how you have been feeling lately, and how they might help. You are a little private about it at first."
+  },
+  "persona_rules": {
+    "myself": [
+      {
+        "persona": "doctor"
+      }
+    ],
+    "someone-else": [
+      {
+        "persona": "relative"
+      }
+    ]
+  },
+  "key_questions": {
+    "myself": [
+      "What should I keep track of before my next visit?",
+      "Are there everyday things that might make this easier for me?",
+      "When should I come back, or get help sooner?",
+      "Could you explain that in simpler words?",
+      "Who else can I talk to if it gets harder?"
+    ],
+    "someone-else": [
+      "How have you been feeling lately?",
+      "What has been the hardest part for you?",
+      "Is there anything I could do that would help?",
+      "Would you like company, or some space, when it gets hard?",
+      "Would it help to talk to a doctor, and would you like me to come along?"
+    ]
+  },
+  "concepts": [
+    {
+      "id": "what-menopause-is",
+      "core": true,
+      "variants": {
+        "simple": {
+          "title": "What menopause is",
+          "body": "Menopause is when a person's monthly periods stop for good. It is a natural part of getting older, not an illness. It often happens around age 50, but it is different for everyone.",
+          "body_someone_else": "Menopause is when a person's monthly periods stop for good. It is a natural part of getting older, not an illness. It often happens around age 50. Everyone goes through it a little differently."
+        },
+        "standard": {
+          "title": "What menopause is",
+          "body": "Menopause is the time when a person's monthly periods have stopped for good, usually around the age of 50, though it can come earlier or later. It is a natural stage of life, not an illness. The years before it, when periods become less regular and changes begin, can last several years. Everyone's experience is different, and many people feel well through it.",
+          "body_someone_else": "Menopause is the time when someone's monthly periods have stopped for good, usually around the age of 50, though it can come earlier or later. It is a natural stage of life, not an illness. The years before it, when periods become less regular and changes begin, can last several years. Everyone's experience is different, so the best way to learn about theirs is to ask kindly."
+        },
+        "deep": {
+          "title": "What menopause is",
+          "body": "Menopause is the time when a person's monthly periods have stopped for good, usually around the age of 50, though it can come earlier or later. It is a natural stage of life, not an illness. The years before it, when periods become less regular and changes begin, can last several years. Everyone's experience is different. Try this: write down three questions you have, such as 'What changes are common?' or 'Who can I ask?' Putting questions on paper turns a vague worry into something you can ask about. A doctor or a trusted adult is a good person to start with.",
+          "body_someone_else": "Menopause is the time when someone's monthly periods have stopped for good, usually around the age of 50, though it can come earlier or later. It is a natural stage of life, not an illness. The years before it can last several years, and everyone's experience is different. Try this: before you talk with them, jot down one thing you would like to understand and one question you could ask. Then begin by asking, not by explaining what you read online. Being curious tells them it is safe to share."
+        }
+      },
+      "check": {
+        "question": "Which statement about menopause is true?",
+        "options": [
+          "It is an illness that needs to be fixed",
+          "It only happens to very old people",
+          "It is a natural stage of life when periods stop for good"
+        ],
+        "answer": 2,
+        "explain": "Menopause is a natural stage of life, and the timing and the experience differ from person to person. If anything about it worries you, a doctor is the right person to ask."
+      }
+    },
+    {
+      "id": "common-experiences",
+      "core": true,
+      "variants": {
+        "simple": {
+          "title": "What people may notice",
+          "body": "Some people feel a sudden wave of heat, called a hot flush. Others sleep badly, feel tired or moody, or have odd periods. Not everyone has all of these.",
+          "body_someone_else": "Some people feel a sudden wave of heat, called a hot flush. Others sleep badly, feel tired or moody, or have odd periods. Not everyone has all of these."
+        },
+        "standard": {
+          "title": "What people may notice",
+          "body": "Common experiences include hot flushes (a sudden wave of heat), night sweats, trouble sleeping, mood changes, feeling tired, and periods that come at odd times. Some people also find it harder to focus, which they may call brain fog. Experiences vary a lot: some people notice very little, while others find it hard going. A doctor can talk through anything that bothers you.",
+          "body_someone_else": "Someone going through menopause may have hot flushes (sudden waves of heat), night sweats, poor sleep, mood changes, tiredness, or periods that come at odd times. They may also feel foggy or forget words. Experiences vary a lot. A short temper or a tired day can be part of this, so it helps not to take it personally. A doctor can talk through anything that bothers them."
+        },
+        "deep": {
+          "title": "What people may notice",
+          "body": "Common experiences include hot flushes (a sudden wave of heat), night sweats, trouble sleeping, mood changes, feeling tired, and periods that come at odd times. Some people also find it harder to focus. Experiences vary a lot: some people notice very little, while others find it hard going. Try keeping a simple note for two weeks. Each day, write the date, how you slept, any hot moments, and your mood from one to five. Patterns are easier to see on paper, and a doctor can use your note to understand your days.",
+          "body_someone_else": "Someone going through menopause may have hot flushes (sudden waves of heat), night sweats, poor sleep, mood changes, tiredness, or periods that come at odd times. They may also feel foggy or lose a word mid-sentence. Experiences vary a lot, and a short temper or a tired day can be part of this. Offer, rather than push: 'Would it help to keep a little note of how your days go? I can help you, and it could be handy for the doctor.' Let them decide whether to do it. Thank them for sharing, even if it is only a little."
+        }
+      },
+      "check": {
+        "question": "Which of these do people commonly describe around menopause?",
+        "options": [
+          "Hot flushes, poor sleep, and mood changes",
+          "Suddenly growing taller",
+          "Not being able to understand speech"
+        ],
+        "answer": 0,
+        "explain": "Hot flushes, sleep changes, and mood changes are everyday experiences that many people describe. Some people have few of them. A doctor is the right person for questions about your own body."
+      }
+    },
+    {
+      "id": "why-changes-happen",
+      "core": true,
+      "variants": {
+        "simple": {
+          "title": "Why the body changes",
+          "body": "The body makes natural chemical messengers called hormones. Around menopause, the amount changes and can go up and down for a while. That is why the body can feel different. It is a normal change.",
+          "body_someone_else": "The body makes natural chemical messengers called hormones. Around menopause they change and can go up and down for a while. That is why they can feel different each week. It is normal."
+        },
+        "standard": {
+          "title": "Why the body changes",
+          "body": "Hormones are natural chemical messengers in the body. Around menopause the body makes less of some of them, and the levels can rise and fall unevenly for a while. That is one reason one week can feel very different from the next. It is a normal part of life, and how it feels differs from person to person. A doctor can talk with you about your own situation.",
+          "body_someone_else": "Hormones are natural chemical messengers in the body. Around menopause the body makes less of some of them, and the levels can rise and fall unevenly for a while. That is one reason one week can feel very different from the next for the person going through it. It is a normal part of life, and it feels different for everyone. A doctor can talk with them about their own situation."
+        },
+        "deep": {
+          "title": "Why the body changes",
+          "body": "Hormones are natural chemical messengers in the body. Around menopause the body makes less of some of them, and the levels can rise and fall unevenly for a while. That is one reason one week can feel very different from the next. Try a kind pause: when a wave of heat, worry, or irritation arrives, take three slow breaths and tell yourself, 'My body is adjusting, and this will pass.' It will not remove the feeling, but it stops it snowballing. A doctor can talk with you about your own situation.",
+          "body_someone_else": "Hormones are natural chemical messengers in the body. Around menopause the body makes less of some of them, and the levels can rise and fall unevenly for a while, so moods and energy can shift without warning. Try a kind pause yourself: when a sharp word comes your way, take three slow breaths and remind yourself that it is likely the pressure of the moment, not a message about you. Then answer softly. A doctor can talk with them about their own situation. You do not have to fix anything. Being steady and kind is plenty."
+        }
+      },
+      "check": {
+        "question": "Why might a person feel very different from one week to the next around menopause?",
+        "options": [
+          "They are making it up",
+          "Natural hormone levels can rise and fall unevenly for a while",
+          "It means they have done something wrong"
+        ],
+        "answer": 1,
+        "explain": "Hormone levels can shift unevenly around menopause, and that can change how a person feels. It is real, it is common, and a doctor can talk through anything that worries you."
+      }
+    },
+    {
+      "id": "what-helps-daily",
+      "core": true,
+      "variants": {
+        "simple": {
+          "title": "Everyday things that can help",
+          "body": "Small things can help. Keep your bedroom cool at night. Wear layers you can take off. Eat regular meals and move your body. If it feels hard, ask a doctor.",
+          "body_someone_else": "You can help with small things. Offer a cool drink or a fan. Share the jobs at home. Walk together. If it is hard for them, a doctor can help."
+        },
+        "standard": {
+          "title": "Everyday things that can help",
+          "body": "Small everyday habits can ease some of the discomfort. Keep the bedroom cool, wear light layers you can take off, and keep a steady bedtime. Gentle movement, regular meals, and time outdoors can lift energy and mood. Talking with friends helps too. These steps do not suit everyone and they are not a replacement for advice, so ask a doctor if things feel hard.",
+          "body_someone_else": "Small everyday help can mean a lot. You might offer a fan or a cool drink, take on a chore, or suggest a gentle walk together. Ask 'What would make today easier?' rather than guessing. Plain company and patience count for more than clever fixes. These steps do not suit everyone, and a doctor is the right person to talk about anything more."
+        },
+        "deep": {
+          "title": "Everyday things that can help",
+          "body": "Small everyday habits can ease some of the discomfort. Keep the bedroom cool, wear light layers you can take off, and keep a steady bedtime. Gentle movement, regular meals, and time outdoors can lift energy and mood. Try a wind-down routine: dim the lights and put screens away half an hour before bed, then breathe in for four counts and out for six, a few times. These steps do not suit everyone, so ask a doctor if things feel hard. Go easy on yourself if a night goes badly, because the next one can be different.",
+          "body_someone_else": "Small everyday help can mean a lot. You might offer a fan or a cool drink, take on a chore, or suggest a gentle walk together. Try the 'one small thing' habit: each day, ask 'Is there one small thing I could take off your plate today?' and then do exactly that, without commenting. Patience and company count for more than clever fixes. A doctor is the right person to talk about anything more. Say thank you when they accept, and make it easy for them to say no. Small, steady kindness adds up over weeks."
+        }
+      },
+      "check": {
+        "question": "Nights feel too warm. Which is a sensible everyday step?",
+        "options": [
+          "Keep the bedroom cool and wear layers you can remove",
+          "Add extra blankets and keep the room warm",
+          "Stay up late so you feel more tired"
+        ],
+        "answer": 0,
+        "explain": "A cool room and light layers are simple steps many people find helpful. They will not suit everyone, and a doctor can talk about what else might help."
+      }
+    },
+    {
+      "id": "talking-about-it",
+      "core": false,
+      "variants": {
+        "simple": {
+          "title": "Talking about it",
+          "body": "Pick one person you trust. Say what you notice in simple words, like 'I get hot at night and feel tired.' Then say what would help. Saying it out loud can be a relief.",
+          "body_someone_else": "Pick a quiet time. Ask a gentle question, like 'How have you been feeling lately?' Listen more than you talk. Do not make jokes about it. Let them share when they are ready."
+        },
+        "standard": {
+          "title": "Talking about it",
+          "body": "It can feel private or awkward to talk about menopause, but telling one trusted person often brings relief. Choose a calm moment. Say what you have noticed in plain words, such as 'I have been sleeping badly and feeling short-tempered, and it is not about you.' Then say what would help, whether it is patience, space, or a hand with something. People usually want to help, and they need to know how.",
+          "body_someone_else": "Choose a calm, private moment, ideally side by side, such as on a walk or a drive. Ask an open question, like 'How have you been feeling lately?' Listen without jokes, advice, or guessing the cause. Let them use their own words and share as much as they wish. End by saying you are there whenever they want to talk."
+        },
+        "deep": {
+          "title": "Talking about it",
+          "body": "It can feel private or awkward to talk about menopause, but telling one trusted person often brings relief. Choose a calm moment. Try a simple three-part script: 'I have noticed...', 'It makes me feel...', 'What would help is...' For example: 'I have noticed I get hot and tired in the evenings. It makes me feel snappy. What would help is a bit of patience.' You could also agree a signal, such as 'I need a minute', so others know to give you space. Start small. One honest sentence is enough, and you can say more later.",
+          "body_someone_else": "Choose a calm, private moment, ideally side by side, such as on a walk or a drive. Ask permission first: 'Is now a good time to chat?' Then ask an open question, like 'How have you been feeling lately?' Listen without jokes, advice, or guessing the cause. Reflect back what you heard: 'It sounds like the nights have been tough.' Let them share as much as they wish, and say you are there whenever they want to talk. Afterwards, a simple 'thank you for telling me' goes a long way. Check in again in a day or two."
+        }
+      },
+      "check": {
+        "question": "Which opening is kindest when raising a private topic like this?",
+        "options": [
+          "You must be going through the change",
+          "Everyone goes through it, so there is no need to make a fuss",
+          "I have noticed things seem hard lately. Would you like to talk?"
+        ],
+        "answer": 2,
+        "explain": "A gentle, open opening lets the other person choose what to share. Guessing the cause or brushing it off can make someone close up."
+      }
+    },
+    {
+      "id": "seeing-a-doctor",
+      "core": false,
+      "variants": {
+        "simple": {
+          "title": "Talking with a doctor",
+          "body": "A doctor can listen and explain. Write down what you notice and your questions. Bring the list. Ask for simple words if you need them. You can bring someone with you.",
+          "body_someone_else": "You can help them get ready to see a doctor. Offer to write down their questions with them. Offer to go along. Let them choose what to say. Do not speak for them."
+        },
+        "standard": {
+          "title": "Talking with a doctor",
+          "body": "A doctor is the right person to talk to about changes that bother you, and a little preparation helps. Write down what you have noticed, when it started, how often it happens, and how it affects your days. Add your questions, and bring the list. If a word is unclear, ask for simpler words. You can also bring someone you trust to listen and take notes.",
+          "body_someone_else": "You can help someone get ready for a doctor's visit without taking it over. Offer to write down what they have noticed and the questions they want to ask. Offer to go along and take notes if they would like that. Let them choose what to say, and avoid speaking for them. It is their appointment, and your calm company can make it easier."
+        },
+        "deep": {
+          "title": "Talking with a doctor",
+          "body": "A doctor is the right person to talk to about changes that bother you, and a little preparation helps. Write down what you have noticed, when it started, how often it happens, and how it affects your days. Try this opening line: 'The main thing I want to talk about today is...' Say it first, then add details. Before you leave, say back what you heard: 'So the next step is...' Ask for simpler words whenever you need them. Ask for anything important in writing. It is fine to bring a trusted person too.",
+          "body_someone_else": "You can help someone get ready for a doctor's visit without taking it over. Offer to write down what they have noticed, when it started, and the questions they want to ask. Suggest they start with, 'The main thing I want to talk about today is...' and practise it once together. Offer to go along and take notes, but let them speak first. Afterwards, ask what they would like to remember. Remind them that doctors are used to these questions and that nothing is too small to mention. Their comfort matters most."
+        }
+      },
+      "check": {
+        "question": "What is most useful to bring to a doctor's visit about changes you have noticed?",
+        "options": [
+          "A list of what you noticed, when it started, and your questions",
+          "Only a guess about what it might be called",
+          "Nothing, because the doctor will already know"
+        ],
+        "answer": 0,
+        "explain": "A short list helps you remember what matters and helps the doctor understand your days. Leave the explaining to the doctor and bring your own words and questions."
+      }
+    },
+    {
+      "id": "when-to-get-help",
+      "core": false,
+      "variants": {
+        "simple": {
+          "title": "When to get help",
+          "body": "Talk to a doctor if sleep, work, or home life gets hard, or if you feel low for weeks. You can go just for advice. If you ever feel unsafe, tell an adult at once.",
+          "body_someone_else": "Suggest a doctor if sleep, work, or home life gets hard for them, or if they seem low for weeks. They can go for advice. If they seem unsafe, get an adult at once."
+        },
+        "standard": {
+          "title": "When to get help",
+          "body": "Menopause is natural, but you do not have to cope alone. Talk to a doctor if changes make sleep, work, or relationships hard, if you feel low for weeks, if bleeding worries you, or if you simply want advice. You do not need to wait until things are unbearable. If you ever have chest pain or trouble breathing, or you feel unsafe, call your local emergency number straight away.",
+          "body_someone_else": "You cannot tell from the outside how someone is really coping, and that is okay. Suggest a doctor if the changes make sleep, work, or relationships hard for them, if they seem low for weeks, or if they simply want advice. Offer to help book a visit or go along. If they ever have chest pain or trouble breathing, or you fear for their safety, call your local emergency number straight away."
+        },
+        "deep": {
+          "title": "When to get help",
+          "body": "Menopause is natural, but you do not have to cope alone. Talk to a doctor if changes make sleep, work, or relationships hard, if you feel low for weeks, if bleeding worries you, or if you simply want advice. To prepare, note for two weeks how you slept, your energy, and your mood from one to five. Take the note with you. If you ever have chest pain or trouble breathing, or you feel unsafe, call your local emergency number straight away. Be kind to yourself. Asking early is a sensible step.",
+          "body_someone_else": "You cannot tell from the outside how someone is really coping, and that is okay. Suggest a doctor if the changes make sleep, work, or relationships hard for them, if they seem low for weeks, or if they simply want advice. Try saying, 'I would be happy to help you book it, and come along if you like.' Let them stay in charge of what they share. If they ever have chest pain or trouble breathing, or you fear for their safety, call your local emergency number straight away. Thank them for trusting you with this."
+        }
+      },
+      "check": {
+        "question": "When is it a good idea to talk to a doctor about changes around menopause?",
+        "options": [
+          "Only when you can no longer cope at all",
+          "Never, because it is natural and doctors cannot help",
+          "When changes make daily life hard, you are worried, or you want advice"
+        ],
+        "answer": 2,
+        "explain": "You do not need to wait until things are unbearable. A doctor can look at the whole picture, which an app cannot."
+      }
+    }
+  ]
+}

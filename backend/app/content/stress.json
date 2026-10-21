@@ -1,0 +1,262 @@
+{
+  "topic": "stress",
+  "title": "Stress and emotional well-being",
+  "summary": "Learn what stress is, how it shows up, and how to talk about it with someone you trust or a doctor.",
+  "icon": "spark",
+  "order": 1,
+  "practice_goal": {
+    "myself": "The learner wants to practise describing, in their own words, how stress has been affecting them, and asking for the support or answers they need. Listen first and ask gentle questions.",
+    "someone-else": "The learner is a parent, relative, or older friend who wants to practise supporting you through a stressful time by listening without lecturing."
+  },
+  "persona_rules": {
+    "myself": [
+      {
+        "minAge": 65,
+        "persona": "doctor"
+      },
+      {
+        "persona": "trusted-adult"
+      }
+    ],
+    "someone-else": [
+      {
+        "persona": "guarded-teen"
+      }
+    ]
+  },
+  "key_questions": {
+    "myself": [
+      "Who else could I talk to about this?",
+      "What could I try on the days it feels like too much?",
+      "When would it be a good idea to see a doctor?",
+      "Could you explain that in simpler words?",
+      "Could we talk again next week?"
+    ],
+    "someone-else": [
+      "What has been the hardest part of your week?",
+      "What would help most right now: ideas, or just me listening?",
+      "Is there someone else you trust that you would like to talk to?",
+      "Is there anything I do that makes it harder?",
+      "How can I check in with you without bugging you?"
+    ]
+  },
+  "concepts": [
+    {
+      "id": "what-stress-is",
+      "core": true,
+      "variants": {
+        "simple": {
+          "title": "What stress is",
+          "body": "Stress is how your body and mind react when something feels like a lot. A big test or a change can cause it. Feeling stressed is normal. It is not your fault.",
+          "body_someone_else": "Stress is how a body and mind react when something feels like a lot. A big test or a change can cause it. Feeling stressed is normal. It is not their fault."
+        },
+        "standard": {
+          "title": "What stress is",
+          "body": "Stress is the way your body and mind react when something feels hard, new, or uncertain. It can come from school, work, money, family, or big changes, and even happy events can bring it on. A little stress can help you focus. Stress that lasts a long time can wear you down. Noticing it early is a useful first step, and it does not mean you are weak.",
+          "body_someone_else": "Stress is the way anyone's body and mind react when something feels hard, new, or uncertain. For someone you care about it might be school, work, money, friendships, or a big change, and even happy events can bring it on. A little stress can help us focus, but stress that lasts can wear a person down. Noticing it early is a good first step, and it never means they are weak."
+        },
+        "deep": {
+          "title": "What stress is",
+          "body": "Stress is the way your body and mind react when something feels hard, new, or uncertain. It can come from school, work, money, family, or big changes, and even happy events can bring it on. A little stress can help you focus, but stress that lasts can wear you down. Noticing it early is a useful first step, and it does not mean you are weak. Try this: finish the sentence 'Right now, what feels like too much is...' out loud or on paper. Naming the pile in one sentence often makes it feel smaller and easier to sort.",
+          "body_someone_else": "Stress is the way anyone's body and mind react when something feels hard, new, or uncertain. For someone you care about it might be school, work, money, friendships, or a big change, and even happy events can bring it on. A little stress can help, but stress that lasts can wear a person down. Noticing it early is useful, and it never means they are weak. Try this: if they are willing, invite them to finish the sentence 'Right now, what feels like too much is...' and then simply listen. Naming the pile often makes it feel smaller."
+        }
+      },
+      "check": {
+        "question": "Which of these is true about stress?",
+        "options": [
+          "Feeling stressed means you are weak",
+          "Stress is a normal reaction when something feels like a lot",
+          "Only adults ever feel stress"
+        ],
+        "answer": 1,
+        "explain": "Stress is a normal reaction, and people of every age feel it. Noticing it is a sign you are paying attention to yourself, not a sign of weakness."
+      }
+    },
+    {
+      "id": "body-and-mood",
+      "core": true,
+      "variants": {
+        "simple": {
+          "title": "How stress shows up",
+          "body": "Stress can show up in your body and your mood. You might get a tight tummy, a sore head, or feel tired. You might feel grumpy or worried. Everyone shows it differently.",
+          "body_someone_else": "Stress can show up in a person's body and mood. They might get a tight tummy, a sore head, or feel tired. They might seem grumpy or worried. Everyone shows it differently."
+        },
+        "standard": {
+          "title": "How stress shows up",
+          "body": "Stress shows up in the body and in mood. You might notice tight shoulders, headaches, an upset stomach, a racing heart, or trouble sleeping. You might feel short-tempered, worried, or flat, or find it hard to focus. These signs are common, and they differ from person to person. Learning your own early signs helps you act before things pile up.",
+          "body_someone_else": "Stress shows up in the body and in mood, and it often looks different from the outside than it feels on the inside. Someone you care about may seem tired, snappy, quiet, or distracted, or may mention headaches or a sore stomach. These signs are common and differ from person to person. Noticing a change from how they usually are is more useful than guessing the cause."
+        },
+        "deep": {
+          "title": "How stress shows up",
+          "body": "Stress shows up in the body and in mood. You might notice tight shoulders, headaches, an upset stomach, a racing heart, or trouble sleeping. You might feel short-tempered, worried, or flat, or find it hard to focus. These signs are common, and they differ from person to person. Try a quick body check: pause, then move your attention slowly from your forehead down to your toes, asking where you feel tight. Unclench your jaw and drop your shoulders as you go. Doing this once or twice a day teaches you your own early warning signs.",
+          "body_someone_else": "Stress shows up in the body and in mood, and it often looks different from the outside than it feels on the inside. Someone you care about may seem tired, snappy, quiet, or distracted, or may mention headaches or a sore stomach. These signs are common and differ from person to person. Try keeping a private note for a week about when you notice changes, such as after school, after work, or late at night. Patterns are easier to talk about than single bad moments, and you can share what you saw kindly, without putting a label on it."
+        }
+      },
+      "check": {
+        "question": "Which of these can be a sign of stress?",
+        "options": [
+          "Tight shoulders, headaches, or trouble sleeping",
+          "Feeling relaxed after a long walk",
+          "Getting hungry around lunchtime"
+        ],
+        "answer": 0,
+        "explain": "Stress often shows up as body tension, aches, and poor sleep. Feeling relaxed after a walk or hungry at lunch is ordinary. If the signs stay for weeks, a doctor or trusted adult can help."
+      }
+    },
+    {
+      "id": "why-emotions-shift",
+      "core": true,
+      "variants": {
+        "simple": {
+          "title": "Why feelings change",
+          "body": "When you are stressed, small things can feel big. A tired mind gets upset faster. Feelings go up and down like waves. They do not stay forever.",
+          "body_someone_else": "When a person is stressed, small things can feel big to them. A tired mind gets upset faster. Feelings go up and down like waves. They do not stay forever."
+        },
+        "standard": {
+          "title": "Why feelings change",
+          "body": "Stress and tiredness make your mind's alarm more sensitive, so small things can feel bigger than usual. Poor sleep, skipped meals, and a full schedule all make it harder to stay patient. Feelings also work like waves: they rise, peak, and pass, even when they feel permanent. A feeling tells you something about what you need. It is not proof of who you are.",
+          "body_someone_else": "Stress and tiredness make a person's mind more sensitive, so small things can set off big feelings. A sharp reply or sudden tears is often about the pile of pressure, not about you. Feelings work like waves: they rise, peak, and pass. Staying calm gives them something steady to settle against, and it is not your job to fix every wave."
+        },
+        "deep": {
+          "title": "Why feelings change",
+          "body": "Stress and tiredness make your mind's alarm more sensitive, so small things can feel bigger than usual. Poor sleep, skipped meals, and a full schedule all make it harder to stay patient. Feelings work like waves: they rise, peak, and pass, even when they feel permanent. Try naming the feeling in your head or out loud, such as 'I feel on edge.' Putting a word on a feeling tends to turn the volume down. A quick check can help too: ask yourself, 'Have I slept, eaten, and had a break today?' Often a small fix takes the edge off. Then ask what it might need: rest, food, a break, or someone to listen.",
+          "body_someone_else": "Stress and tiredness make a person's mind more sensitive, so small things can set off big feelings. A sharp reply or sudden tears is often about the pile of pressure, not about you. Feelings work like waves: they rise, peak, and pass. When things are calm, you might offer a feeling word without pushing, such as 'You seem on edge. Is that right?' Being understood tends to turn the volume down. If they do not want to talk, that is fine; a snack, a quiet room, or an early night can do the same job. Then ask what they might need: rest, food, a break, or just company."
+        }
+      },
+      "check": {
+        "question": "After a long week with little sleep, small things feel huge. What is the best way to understand this?",
+        "options": [
+          "Something must be badly wrong with you",
+          "Your feelings are fake and should be ignored",
+          "Stress and tiredness can make small things feel bigger, and feelings pass like waves"
+        ],
+        "answer": 2,
+        "explain": "Tiredness and stress turn up the volume on feelings. That is common and it usually eases with rest and support. If it goes on for weeks, a doctor or trusted adult is a good person to ask."
+      }
+    },
+    {
+      "id": "what-helps-now",
+      "core": true,
+      "variants": {
+        "simple": {
+          "title": "What helps right now",
+          "body": "Try slow breaths. Breathe in for four counts and out for six. A drink of water, a walk outside, or a chat with someone you trust can help too. Pick one small thing.",
+          "body_someone_else": "Slow breaths can help. Breathe in for four counts and out for six. You can offer water, a walk, or a calm chat. Ask what would help. Pick one small thing together."
+        },
+        "standard": {
+          "title": "What helps right now",
+          "body": "When stress spikes, small steps can bring it down. Breathe in slowly and make the breath out longer. Take a short walk, drink some water, stretch, or listen to calming music. Break a big task into one small next step. Talking to someone you trust helps too. These steps will not solve everything, but they can settle you enough to think clearly.",
+          "body_someone_else": "When stress spikes in someone you care about, your calm is one of the most useful things you can offer. Speak softly, slow your own breathing, and offer simple options such as water, a walk, or sitting together. Instead of fixing, ask 'What would help right now?' These steps will not solve everything, but they can settle the moment enough for a real talk later."
+        },
+        "deep": {
+          "title": "What helps right now",
+          "body": "When stress spikes, small steps can bring it down. Try slow breathing: in through your nose for four counts, out through your mouth for six, for about one minute. The longer breath out helps your body settle. Then pick one tiny next step, such as a glass of water or a short walk. Another quick option is to look around and name five things you can see, which pulls your attention back to the present. These steps are first aid, not a cure. If stress keeps coming back, talk with a doctor or a trusted adult about what else could help.",
+          "body_someone_else": "When stress spikes in someone you care about, your calm is one of the most useful things you can offer. Speak softly and breathe slowly yourself. You can invite them to breathe along: in for four counts, out for six, for about a minute. Then ask 'What would help right now?' and let them choose. If they would rather not breathe along, that is fine. You can simply sit nearby and let the quiet do its work. These steps are first aid, not a cure. If stress keeps coming back, encourage a visit with a doctor or another trusted adult."
+        }
+      },
+      "check": {
+        "question": "Stress suddenly spikes. Which is a good first thing to try?",
+        "options": [
+          "Hold your breath and push through",
+          "Breathe in slowly, then breathe out for longer",
+          "Tell yourself to simply stop feeling it"
+        ],
+        "answer": 1,
+        "explain": "A longer breath out helps your body settle. Holding your breath or forcing a feeling away usually adds more tension. These are quick steps, and a doctor or trusted adult can help if stress keeps returning."
+      }
+    },
+    {
+      "id": "talking-it-through",
+      "core": false,
+      "variants": {
+        "simple": {
+          "title": "Talking it through",
+          "body": "Pick someone you trust. Say how you feel in one sentence. Then say what you need, like 'I just need you to listen.' Asking for help is brave.",
+          "body_someone_else": "Listen more than you talk. Ask one open question, like 'What is it like for you right now?' Do not rush to fix it. Just being there helps."
+        },
+        "standard": {
+          "title": "Talking it through",
+          "body": "Choose a person you trust and a calm moment. Start with how you feel in plain words, such as 'I've been feeling stressed and it is wearing me down.' Then say what would help: listening, ideas, or just company. People often want to help but do not know how, so telling them makes it easier for them and for you.",
+          "body_someone_else": "Listening well matters more than saying the perfect thing. Choose a calm moment and ask an open question, such as 'What has been the hardest part lately?' Let silence sit. Reflect back what you heard before offering any advice, and avoid lecturing or comparing. You can ask 'Do you want ideas, or do you want me to listen?'"
+        },
+        "deep": {
+          "title": "Talking it through",
+          "body": "Choose a person you trust and a calm moment. Try a simple three-part script: 'I've noticed that...', 'I feel...', 'What would help me is...' For example: 'I've noticed I'm not sleeping well. I feel stressed about exams. What would help is if you just listened for a few minutes.' People often want to help but do not know how, so being specific makes it easier for them, and for you. If the words will not come, write them down or send a message first, then talk when you are ready. The first sentence is the hardest, and it gets easier after that.",
+          "body_someone_else": "Listening well matters more than saying the perfect thing. Try three steps. Reflect: 'It sounds like exams are piling up.' Validate: 'That makes sense.' Then ask: 'What would help most right now?' Resist the urge to fix, lecture, or compare, even when you are worried. If they give short answers, that is fine. Staying steady and curious tells them it is safe to say more, when they are ready. If they ask for advice, offer one idea at most and check whether it fits. Afterwards, thank them for talking, even if it was only a few words."
+        }
+      },
+      "check": {
+        "question": "In a talk about stress, which approach usually helps most?",
+        "options": [
+          "Giving a quick list of fixes straight away",
+          "Telling them that other people have it worse",
+          "Listening first, then asking what would help"
+        ],
+        "answer": 2,
+        "explain": "Feeling heard calms stress. Quick fixes and comparisons can make a person feel brushed off. This works both when you ask for support and when you give it."
+      }
+    },
+    {
+      "id": "when-to-get-help",
+      "core": false,
+      "variants": {
+        "simple": {
+          "title": "When to ask for help",
+          "body": "Talk to a doctor or a trusted adult if stress lasts for weeks, or if sleep, eating, or school get hard. If you ever feel unsafe, tell an adult right away.",
+          "body_someone_else": "Talk to a doctor or a trusted adult if their stress lasts for weeks, or if sleep, eating, or school get hard. If they ever seem unsafe, get an adult right away."
+        },
+        "standard": {
+          "title": "When to ask for help",
+          "body": "Stress is normal, but you do not have to handle it alone. Talk to a doctor or a trusted adult if it lasts for weeks, disturbs your sleep or eating, gets in the way of school, work, or relationships, or brings physical symptoms that worry you. A doctor can look at the whole picture, which this app cannot. If you ever feel unsafe or think about hurting yourself, tell someone right away or call your local emergency number.",
+          "body_someone_else": "You cannot tell from the outside how someone is really doing, and that is okay. Suggest a doctor or trusted adult if their stress lasts for weeks, disturbs sleep or eating, or gets in the way of daily life. Offer to help book a visit or go along. If they ever talk about hurting themselves, or you fear for their safety, stay with them and call your local emergency number."
+        },
+        "deep": {
+          "title": "When to ask for help",
+          "body": "Stress is normal, but you do not have to handle it alone. Talk to a doctor or a trusted adult if it lasts for weeks, disturbs your sleep or eating, gets in the way of school, work, or relationships, or brings physical symptoms that worry you. A doctor can look at the whole picture, which this app cannot. To prepare, jot down your sleep, energy, and mood from one to five each day for two weeks. If you ever feel unsafe or think about hurting yourself, tell someone right away or call your local emergency number.",
+          "body_someone_else": "You cannot tell from the outside how someone is really doing, and that is okay. Suggest a doctor or trusted adult if their stress lasts for weeks, disturbs sleep or eating, or gets in the way of daily life. Offer to help book a visit or go along, and let them stay in charge of what they share. A simple note of changes you have seen can help them explain. If they ever talk about hurting themselves, or you fear for their safety, stay with them and call your local emergency number."
+        }
+      },
+      "check": {
+        "question": "When is it a good idea to talk to a doctor or trusted adult about stress?",
+        "options": [
+          "When it lasts for weeks or gets in the way of sleep, eating, school, or work",
+          "Only when it has become unbearable",
+          "Never, because stress always goes away on its own"
+        ],
+        "answer": 0,
+        "explain": "You do not need to wait until things are unbearable. Reaching out early is a smart move, and a doctor can look at the whole picture in a way an app cannot."
+      }
+    },
+    {
+      "id": "plan-the-conversation",
+      "core": false,
+      "variants": {
+        "simple": {
+          "title": "Plan your talk",
+          "body": "Plan three things: how to start, how you feel, and what you need. Pick a calm time. Say it out loud once. Then talk to your person.",
+          "body_someone_else": "Plan to start gently. Pick a calm time, not a rushed one. Ask a question instead of giving a lecture. It is okay if they say very little. Tell them you are there."
+        },
+        "standard": {
+          "title": "Plan your talk",
+          "body": "A little planning makes a hard talk easier. Pick a calm time and place. Decide on a short opening, one feeling you want to share, and one thing you need. Say it out loud once or twice so the words feel familiar. If it does not go well, that is okay. You can try again another day, or choose a different person.",
+          "body_someone_else": "A little planning helps you stay calm and kind. Pick a relaxed time, ideally side by side, such as on a walk or a drive, rather than face to face. Plan an opening like 'I've noticed you seem tired lately, and I care about you.' Expect short answers and try not to take them personally. End by saying you are there whenever they want to talk."
+        },
+        "deep": {
+          "title": "Plan your talk",
+          "body": "A little planning makes a hard talk easier. Pick a calm time and place. Write three short lines: an opening ('Do you have a few minutes? There is something on my mind'), one feeling ('I have felt really stressed lately'), and one request ('I would like you to listen'). Say them out loud once or twice so the words feel familiar. If it does not go well, you can try again another day or choose a different person. Have a back-up plan too, such as a written note, in case the first try is cut short.",
+          "body_someone_else": "A little planning helps you stay calm and kind. Pick a relaxed time, ideally side by side, such as on a walk or a drive, rather than face to face. Write your opening: 'I've noticed you seem tired lately, and I care about you. No pressure, but I'm here if you want to talk.' Expect short answers and try not to take them personally. End by saying you are around whenever they are ready, then check in again in a day or two. Choose a time without a deadline, so neither of you feels hurried, and put phones away."
+        }
+      },
+      "check": {
+        "question": "Which is a good way to prepare for a hard conversation?",
+        "options": [
+          "Memorise a long speech and read it word for word",
+          "Plan a short opening, name one feeling, and pick a calm time",
+          "Wait until you are very upset, then bring it up"
+        ],
+        "answer": 1,
+        "explain": "A short plan and a calm moment keep the talk steady. A long speech can sound stiff, and bringing things up in the heat of the moment makes them harder to hear."
+      }
+    }
+  ]
+}

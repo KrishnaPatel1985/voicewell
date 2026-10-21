@@ -1,0 +1,200 @@
+{
+  "self_harm_patterns": [
+    "\\bsuicid(?:e|al)\\b",
+    "\\bkill(?:ing)?\\s+(?:my|him|her|them)\\s?(?:self|selves)\\b",
+    "\\bkms\\b",
+    "\\bunalive(?:d|ing)?\\s+(?:my\\s?self|me)\\b",
+    "\\bend(?:ing)?\\s+(?:my|his|her|their)\\s+(?:own\\s+)?life\\b",
+    "\\b(?:take|taking|took)\\s+(?:my|his|her|their)\\s+own\\s+life\\b",
+    "\\bend(?:ing)?\\s+it\\s+all\\b",
+    "\\b(?:want|wanna|going|ready)\\s+to\\s+end\\s+it\\b(?!\\s+(?:with|between|before|after|here))",
+    "\\b(?:hurt|hurting|harm|harming|injure|injuring)\\s+(?:my|him|her|them)\\s?(?:self|selves)\\b(?!\\s+(?:playing|lifting|running|exercising|at the gym|at practice))",
+    "\\bcut(?:ting)?\\s+(?:my|him|her|them)\\s?(?:self|selves)\\b(?!\\s+(?:off|some|a break|loose|short|out|shaving|cooking|chopping|slicing))",
+    "\\b(?:starve|starving|punish|punishing|poison|poisoning|hang|hanging|shoot|shooting|stab|stabbing|drown|drowning|suffocate|suffocating|strangle|strangling)\\s+(?:my|him|her|them)\\s?(?:self|selves)\\b(?!\\s+in\\s+(?:the foot|work|my work|study|studying|homework|books))",
+    "\\b(?:cut|cutting|slit|slitting)\\s+(?:my|his|her|their)\\s+wrists?\\b",
+    "\\bself[\\s-]?(?:harm|injur|mutilat)",
+    "\\b(?:don['’]?t|do not|dont|no longer)\\s+(?:want|wanna)\\s+to\\s+(?:be\\s+alive|exist|wake\\s+up|live\\s+any\\s?more|go\\s+on\\s+living|be\\s+here\\s+any\\s?more|be\\s+here\\s+any\\s+longer|be\\s+on\\s+this\\s+earth|be\\s+in\\s+this\\s+world|live\\s+in\\s+this\\s+world|live\\s+on\\s+this\\s+earth)",
+    "\\b(?:don['’]?t|do not|dont)\\s+(?:want|wanna)\\s+to\\s+be\\s+here\\b(?!\\s+(?:at|in|for|with|during|today|tonight|this|because|when|if|without|so)\\b)",
+    "\\b(?:don['’]?t|do not|dont)\\s+(?:want|wanna)\\s+to\\s+live\\s*(?:$|[.,!?;])",
+    "\\b(?:want(?:ed)?|wanna|wish(?:ed)?)\\s+(?:to\\s+)?(?:die|be\\s+dead)\\b(?!\\s+(?:of|from)\\s+(?:embarrassment|shame|laughing|laughter|boredom))",
+    "\\bi['’]?d\\s+rather\\s+(?:be\\s+dead|die)\\b(?!\\s+than)",
+    "\\bwish\\s+i\\s+(?:was|were|could)\\s+(?:dead|never\\s+born|never\\s+been\\s+born)\\b",
+    "\\bwish\\s+i\\s+(?:could\\s+)?(?:just\\s+)?(?:disappear|die|vanish|not\\s+wake\\s+up|wouldn['’]?t\\s+wake\\s+up)\\b(?!\\s+(?:into|for\\s+a))",
+    "\\bbetter\\s+(?:off\\s+)?(?:dead|without\\s+me)\\b",
+    "\\bnothing\\s+(?:left\\s+)?to\\s+live\\s+for\\b",
+    "\\bno\\s+reason\\s+to\\s+(?:live|go\\s+on|keep\\s+going|be\\s+alive)\\b",
+    "\\bcan['’]?t\\s+go\\s+on\\b(?!\\s+(?:a|an|the|with|to|for)\\b)",
+    "\\boverdos(?:e|ed|ing)\\b",
+    "\\b(?:jump|jumping|throw|throwing)\\s+(?:myself\\s+)?(?:off|from|in\\s+front\\s+of)\\s+(?:a|an|the)?\\s*(?:bridge|building|roof|cliff|train|car|bus)\\b",
+    "\\b(?:thinking|thought|thoughts|think)\\s+(?:of|about)\\s+(?:dying|ending\\s+it|ending\\s+things)\\b",
+    "\\b(?:wouldn['’]?t|would\\s+not)\\s+(?:care|miss\\s+me|even\\s+notice)\\s+if\\s+i\\s+(?:died|was\\s+gone|were\\s+gone|disappeared)\\b"
+  ],
+  "diagnosis_patterns": [
+    "\\bdiagnos",
+    "\\b(?:do|could|might|may|would)\\s+(?:i|you\\s+think\\s+i)\\s+have\\s+(?:an?\\s+|some\\s+|the\\s+)?(?:depress(?:ion|ed|ive)|anxiety|bipolar|adhd|ptsd|ocd|panic\\s+disorder|eating\\s+disorder|autis(?:m|tic)|schizophreni\\w*|psychosis|mental\\s+(?:illness|disorder|health\\s+(?:problem|condition|issue)s?)|disorder|condition|illness|disease)\\b",
+    "\\b(?:does|is|could|might|may)\\s+(?:he|she|they|my\\s+\\w+|the\\s+\\w+)\\s+(?:have|be)\\s+(?:an?\\s+|some\\s+|the\\s+)?(?:depress(?:ion|ed|ive)|anxiety|bipolar|adhd|ptsd|ocd|panic\\s+disorder|eating\\s+disorder|autis(?:m|tic)|schizophreni\\w*|psychosis|mental\\s+(?:illness|disorder)|disorder|condition|illness|disease)\\b",
+    "\\b(?:am\\s+i|could\\s+i\\s+be|might\\s+i\\s+be|do\\s+you\\s+think\\s+i['’]?m)\\s+(?:depressed|bipolar|mentally\\s+ill|sick\\s+in\\s+the\\s+head|crazy|losing\\s+my\\s+mind)\\b",
+    "\\bwhat(?:['’]?s|\\s+is)\\s+wrong\\s+with\\s+me\\b",
+    "\\bwhat\\s+(?:condition|disorder|illness|disease|mental\\s+illness)\\b",
+    "\\b(?:i\\s+have|i['’]?ve\\s+got|i\\s+got|i\\s+might\\s+have|i\\s+may\\s+have|i\\s+think\\s+i\\s+have|i\\s+think\\s+i['’]?m|i\\s+am|i['’]?m|i\\s+was\\s+diagnosed\\s+with|i\\s+suffer\\s+from)\\s+(?:so\\s+|really\\s+|clinically\\s+|severely\\s+)?(?:an?\\s+)?(?:depression|depressed|bipolar|adhd|ptsd|ocd|anxiety\\s+disorder|panic\\s+disorder|eating\\s+disorder|autistic|autism|schizophrenia|psychosis)\\b",
+    "\\bi\\s+(?:have|got)\\s+anxiety\\b(?!\\s+(?:about|before|over|when|around|because|from|at|on)\\b)",
+    "\\bshould\\s+(?:i|we)\\s+(?:take|try|use|start|stop|get\\s+on)\\s+(?:some\\s+|any\\s+|a\\s+|an\\s+|my\\s+|the\\s+)?(?:meds?|medicines?|medications?|pills?|tablets?|capsules?|drugs?|antidepressants?|sedatives?|supplements?)\\b",
+    "\\b(?:can|could|should|would|do|does|will|may)\\s+(?:i|we|you|he|she|they|my\\s+\\w+)\\b[^.?!]{0,40}?\\b(?:take|taking|give|giving|get|start|prescribe|recommend|try)\\b[^.?!]{0,30}?\\b(?:meds?|medicines?|medications?|pills?|tablets?|drugs?|antidepressants?|sedatives?|supplements?)\\b",
+    "\\bwhat\\s+(?:medicines?|medications?|meds|pills?|drugs?|tablets?)\\b",
+    "\\bhow\\s+(?:much|many)\\b[^.?!]{0,40}\\b(?:mg|milligrams?|pills?|tablets?|capsules?|doses?|dosage)\\b",
+    "\\b(?:dosage|dosing)\\b",
+    "\\b\\d+\\s?(?:mg|milligrams?)\\b",
+    "\\bprescrib(?:e|ing)\\s+(?:me|him|her|us|them|something|anything)\\b",
+    "\\b(?:sertraline|fluoxetine|escitalopram|citalopram|paroxetine|venlafaxine|bupropion|prozac|zoloft|lexapro|xanax|valium|ativan|klonopin|adderall|ritalin|propranolol|ibuprofen|melatonin|ssris?|antidepressants?)\\b",
+    "\\b(?:what|which)\\s+treatments?\\b",
+    "\\bhow\\s+(?:do|can|should)\\s+(?:i|we|you)\\s+treat\\b",
+    "\\bshould\\s+(?:i|we|he|she|they)\\s+(?:take|try|use)\\s+(?:something|anything)\\s+(?:for|to\\s+help)\\b"
+  ],
+  "condition_terms": [
+    "\\bdepress(?:ion|ed|ive)\\b",
+    "\\bmajor\\s+depress",
+    "\\banxiety\\s+disorder",
+    "\\bgeneralized\\s+anxiety",
+    "\\bgeneralised\\s+anxiety",
+    "\\bsocial\\s+anxiety",
+    "\\b(?:have|has|had|got|having)\\s+(?:an?\\s+)?anxiety\\b",
+    "\\bpanic\\s+(?:disorder|attacks?)\\b",
+    "\\bbipolar",
+    "\\badhd\\b",
+    "\\bptsd\\b",
+    "\\bpost[\\s-]?traumatic",
+    "\\bocd\\b",
+    "\\bobsessive[\\s-]compulsive",
+    "\\beating\\s+disorder",
+    "\\banorexi",
+    "\\bbulimi",
+    "\\bautis(?:m|tic)\\b",
+    "\\bschizophreni",
+    "\\bpsychosis\\b",
+    "\\bpsychotic\\b",
+    "\\bpersonality\\s+disorder",
+    "\\bmental\\s+(?:illness|disorder)",
+    "\\binsomnia\\b",
+    "\\bclinical(?:ly)?\\s+(?:depress|anxious)"
+  ],
+  "medication_terms": [
+    "\\bmgs?\\b",
+    "\\bmilligrams?\\b",
+    "\\bssris?\\b",
+    "\\bsnris?\\b",
+    "\\bsertraline",
+    "\\bfluoxetine",
+    "\\bescitalopram",
+    "\\bcitalopram",
+    "\\bparoxetine",
+    "\\bvenlafaxine",
+    "\\bbupropion",
+    "\\bprozac",
+    "\\bzoloft",
+    "\\blexapro",
+    "\\bxanax",
+    "\\bvalium",
+    "\\bativan",
+    "\\bklonopin",
+    "\\bbenzodiazepines?",
+    "\\balprazolam",
+    "\\blorazepam",
+    "\\bdiazepam",
+    "\\bclonazepam",
+    "\\bpropranolol",
+    "\\bbeta[\\s-]?blockers?",
+    "\\badderall",
+    "\\britalin",
+    "\\bmethylphenidate",
+    "\\bibuprofen",
+    "\\bacetaminophen",
+    "\\bparacetamol",
+    "\\btylenol",
+    "\\baspirin",
+    "\\bmelatonin",
+    "\\bashwagandha",
+    "\\bvalerian",
+    "\\bantidepressants?",
+    "\\bantipsychotics?",
+    "\\bsedatives?",
+    "\\bsleeping\\s+pills?",
+    "\\banti[\\s-]anxiety",
+    "\\bpainkillers?",
+    "\\bopioids?",
+    "\\bcbd\\b",
+    "\\bcannabis",
+    "\\bdosage\\b",
+    "\\bdoses?\\b",
+    "\\b(?:pills?|tablets?)\\b"
+  ],
+  "support_messages": {
+    "US": "It sounds like things are really hard right now. You can call or text 988, the Suicide & Crisis Lifeline, any time for free. If you are in danger now, call 911. You can also talk to a trusted adult.",
+    "GB": "It sounds like things are really hard right now. You can call Samaritans for free, any time, on 116 123. If you are in danger now, call 999. You can also talk to a trusted adult.",
+    "CA": "It sounds like things are really hard right now. You can call or text 988, the Suicide Crisis Helpline, any time for free. If you are in danger now, call 911. You can also talk to a trusted adult.",
+    "AU": "It sounds like things are really hard right now. You can call Lifeline on 13 11 14 any time. If you are in danger now, call 000. You can also talk to a trusted adult.",
+    "default": "It sounds like things are really hard right now. Please talk to a trusted adult, or contact your local emergency number if you are in danger now."
+  },
+  "fallback_feedback": {
+    "summary": "You took the time to practise a real conversation, and that is a good step. A longer practice gives richer feedback.",
+    "skills": [
+      {
+        "name": "Opening",
+        "level": "Growing",
+        "note": "Starting with one clear, kind sentence helps the other person know what you want to talk about."
+      },
+      {
+        "name": "Listening",
+        "level": "Growing",
+        "note": "Try repeating back what you heard, such as 'It sounds like that was really hard.'"
+      },
+      {
+        "name": "Clarity",
+        "level": "Growing",
+        "note": "Say what you need, or what you can offer, in one clear sentence."
+      },
+      {
+        "name": "Questions",
+        "level": "Try next",
+        "note": "Try asking one open question, then pause and listen before adding more."
+      }
+    ],
+    "strengths": [
+      {
+        "point": "You took the time to practise, which shows care and courage."
+      },
+      {
+        "point": "You stayed in the conversation and kept trying to understand."
+      },
+      {
+        "point": "You kept a respectful, patient tone."
+      }
+    ],
+    "improvements": [
+      {
+        "point": "Try asking one open question, then pause and listen before adding more."
+      },
+      {
+        "point": "Try reflecting back what you heard, such as 'It sounds like that was really hard.'"
+      },
+      {
+        "point": "Try saying what you need, or what you can offer, in one clear sentence."
+      }
+    ],
+    "missingQuestions": [
+      "What has been the hardest part for you lately?",
+      "What would help most right now?",
+      "Would you like me to listen, or would you like ideas?"
+    ],
+    "suggestedPhrases": [
+      {
+        "try": "It sounds like a lot is on your plate right now."
+      },
+      {
+        "try": "I'm here, and there is no rush."
+      },
+      {
+        "try": "Would it help to talk to a doctor or someone you trust about this?"
+      }
+    ]
+  }
+}

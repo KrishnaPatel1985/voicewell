@@ -1,0 +1,77 @@
+{
+  "self_harm_patterns": [
+    "\\bkill (my|him|her)self\\b",
+    "\\bsuicid",
+    "\\bend my life\\b",
+    "\\bhurt myself\\b",
+    "\\bself[- ]harm\\b",
+    "\\bdon'?t want to be (alive|here)\\b"
+  ],
+  "diagnosis_patterns": [
+    "\\bdo i have\\b",
+    "\\bdiagnos",
+    "\\bwhat (condition|disorder)\\b",
+    "\\bshould i take\\b",
+    "\\bhow (much|many) .* (take|dose)\\b"
+  ],
+  "condition_terms": [
+    "depression",
+    "anxiety disorder",
+    "bipolar",
+    "adhd",
+    "ptsd"
+  ],
+  "medication_terms": [
+    "\\bmg\\b",
+    "ssri",
+    "sertraline",
+    "ibuprofen"
+  ],
+  "support_messages": {
+    "US": "Call or text 988. If in danger call 911.",
+    "default": "Please talk to a trusted adult."
+  },
+  "fallback_feedback": {
+    "summary": "You took the time to practise, and that matters.",
+    "skills": [
+      {
+        "name": "Opening",
+        "level": "Growing",
+        "note": "Start with one clear sentence about why you are talking."
+      },
+      {
+        "name": "Listening",
+        "level": "Growing",
+        "note": "Pause and reflect back what you heard."
+      },
+      {
+        "name": "Clarity",
+        "level": "Growing",
+        "note": "Say what you need in one short sentence."
+      },
+      {
+        "name": "Questions",
+        "level": "Try next",
+        "note": "Ask one open question."
+      }
+    ],
+    "strengths": [
+      {
+        "point": "You spoke up."
+      }
+    ],
+    "improvements": [
+      {
+        "point": "Try one open question."
+      }
+    ],
+    "missingQuestions": [
+      "How long has this been going on?"
+    ],
+    "suggestedPhrases": [
+      {
+        "try": "I'd like to talk about how I've been feeling."
+      }
+    ]
+  }
+}

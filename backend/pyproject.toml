@@ -1,0 +1,23 @@
+[project]
+name = "voicewell-backend"
+version = "0.1.0"
+description = "Voicewell backend (hackathon)"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "httpx",
+    "websockets",
+    "numpy",
+    "python-dotenv",
+    "bcrypt>=5.0.0",
+    "pyjwt>=2.15.1",
+]
+
+[dependency-groups]
+dev = ["pytest", "pytest-asyncio"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+pythonpath = ["."]
