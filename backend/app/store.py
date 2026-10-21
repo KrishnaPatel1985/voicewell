@@ -7,7 +7,8 @@ import secrets
 import time
 from dataclasses import dataclass, field
 from typing import Any
-nfrom .config import settings
+
+from .config import settings
 
 COOKIE_NAME = "vw_sid"
 TTL_SECONDS = 30 * 60
