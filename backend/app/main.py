@@ -12,7 +12,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 
-from . import db
+from . import db, demo
 from .config import settings
 from .errors import ApiError
 from .routes import router
@@ -26,6 +26,7 @@ log = logging.getLogger("voicewell.http")
 @asynccontextmanager
 async def lifespan(_: FastAPI):
     db.init_db()  # creates backend/data/voicewell.db and the users table
+    demo.seed()
     if not settings.jwt_secret:
         log.warning("JWT_SECRET is not set: sign in is unavailable")
     yield

@@ -89,7 +89,7 @@ let feedbackInFlight: Promise<Feedback> | null = null
 export const api = {
   signup: (email: string, password: string, displayName?: string) =>
     request<{ user: User }>('/auth/signup', 'POST', { email, password, displayName }),
-  login: (email: string, password: string) => request<{ user: User }>('/auth/login', 'POST', { email, password }),
+  login: (email: string, password: string) => request<{ user: User; demo?: boolean }>('/auth/login', 'POST', { email, password }),
   logout: () => request<{ ok: true }>('/auth/logout', 'POST'),
   me: () => request<{ user: User }>('/auth/me'),
   topics: () => request<{ topics: TopicInfo[] }>('/topics'),

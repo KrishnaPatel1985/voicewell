@@ -164,7 +164,12 @@ def _drop_foreign_session(request: Request, user_id: str) -> None:
 def _sign_in(request: Request, response: Response, user: dict) -> dict:
     _drop_foreign_session(request, user["id"])
     _set_token_cookie(response, create_token(user["id"], user["email"], user["display_name"]))
-    return {"user": {"id": user["id"], "email": user["email"], "displayName": user["display_name"]}}
+    from . import demo
+
+    out = {"user": {"id": user["id"], "email": user["email"], "displayName": user["display_name"]}}
+    if demo.start_session(request, response, user):
+        out["demo"] = True
+    return out
 
 
 @auth_router.post("/signup", status_code=201)

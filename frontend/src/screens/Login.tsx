@@ -1,6 +1,6 @@
 import { useState, type FormEvent } from 'react'
 import { api, errorMessage } from '../api'
-import { nextPath } from '../router'
+import { navigate, nextPath } from '../router'
 import { useSession } from '../session'
 import { Brand, Field, Icon, Link } from '../ui'
 
@@ -21,9 +21,10 @@ export default function Login() {
     setBusy(true)
     setError('')
     try {
-      const { user } = await api.login(email.trim(), password)
+      const { user, demo } = await api.login(email.trim(), password)
       // App sees the signed-in user on a public screen and moves on to `next` (or home).
       signIn(user)
+      if (demo) navigate('/home')
     } catch (e) {
       setError(errorMessage(e))
       setBusy(false)
